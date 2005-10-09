@@ -1,0 +1,4 @@
+- v.7.5
+- url updated
+- added DESTDIR patch
+- {Build,}Requires: perl
