@@ -6,10 +6,6 @@ Version:	8.56
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://kitenet.net/programs/alien/%{name}_%{version}.tar.gz
-# Source0-md5:	a6b1f6278ab819635e65b0836186c777
-Source1:	http://www.mif.pg.gda.pl/homepages/ankry/man-PLD/%{name}-non-english-man-pages.tar.bz2
-# Source1-md5:	44f9b3381776077447bbdb8c64d3f215
 Source2: http://ep09.pld-linux.org/~arekm/kde/arts-1.5.0.tar.bz2
 # Source2-md5:	e90a32ee47d5cdc51fe1b7f6f6c0df63
 Source3: http://ep09.pld-linux.org/~arekm/kde/kdeaccessibility-3.5.0.tar.bz2
@@ -21,7 +17,7 @@ Source5: http://ep09.pld-linux.org/~arekm/kde/kdeadmin-3.5.0.tar.bz2
 Source6: http://ep09.pld-linux.org/~arekm/kde/kdeartwork-3.5.0.tar.bz2
 # Source6-md5:	052c736c9c12defbb2e7de04ff0b2ae6
 Source7: http://ep09.pld-linux.org/~arekm/kde/kdebase-3.5.0.tar.bz2
-# Source7-md5:	ab5a1b3541825c88646c926083e3aefd
+# Source7-md5:	b86622c029ee8ab656a67c6467fff887
 Source8: http://ep09.pld-linux.org/~arekm/kde/kdebindings-3.5.0.tar.bz2
 # Source8-md5:	137924318ff5fc49cee3c82ee0ce5cf5
 Source9: http://ep09.pld-linux.org/~arekm/kde/kdeedu-3.5.0.tar.bz2
