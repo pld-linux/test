@@ -8,8 +8,8 @@ License:	GPL
 Group:		Applications/System
 URL:		http://kitenet.net/programs/alien/
 BuildRequires:	 apache-mod_perl-devel >= 1:2.0.2-9
-#BuildConflicts:	apache-mod_perl < 1:2.0.2-9
-BuildRequires:	apache-mod_perl >= 1:2.0.2-9
+BuildConflicts:	apache-mod_perl < 1:2.0.2-9
+#BuildRequires:	apache-mod_perl >= 1:2.0.2-9
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
