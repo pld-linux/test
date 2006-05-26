@@ -17,7 +17,7 @@ Source5: http://ep09.pld-linux.org/~arekm/kde/kdeadmin-3.5.3.tar.bz2
 Source6: http://ep09.pld-linux.org/~arekm/kde/kdeartwork-3.5.3.tar.bz2
 # Source6-md5:	e0fc78bee18d81b4595c98964227a06c
 Source7: http://ep09.pld-linux.org/~arekm/kde/kdebase-3.5.3.tar.bz2
-# Source7-md5:	3a5029d525944a5dda1ca384fa15d9ab
+# Source7-md5:	9cb6b8291c4f3f986e16f72129e8fcd0
 Source8: http://ep09.pld-linux.org/~arekm/kde/kdebindings-3.5.3.tar.bz2
 # Source8-md5:	5595b2de6593d1d535ba520abeab4580
 Source9: http://ep09.pld-linux.org/~arekm/kde/kdeedu-3.5.3.tar.bz2
@@ -39,7 +39,7 @@ Source16: http://ep09.pld-linux.org/~arekm/kde/kdesdk-3.5.3.tar.bz2
 Source17: http://ep09.pld-linux.org/~arekm/kde/kdetoys-3.5.3.tar.bz2
 # Source17-md5:	dbce8029253a6151546e3016f299f4ef
 Source18: http://ep09.pld-linux.org/~arekm/kde/kdeutils-3.5.3.tar.bz2
-# Source18-md5:	8fa5b2411920065eeaea9bf4bf5ee2f3
+# Source18-md5:	b3d792c21e9a72bf8a82c5756fcd742d
 Source19: http://ep09.pld-linux.org/~arekm/kde/kdevelop-3.3.3.tar.bz2
 # Source19-md5:	89f3ad2b3e97e92bd9421f0d9ae8e427
 Source20: http://ep09.pld-linux.org/~arekm/kde/kdewebdev-3.5.3.tar.bz2
