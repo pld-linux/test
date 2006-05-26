@@ -6,7 +6,7 @@ Version:	8.56
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source2: http://ep09.pld-linux.org/~arekm/kde/arts-1.5.2.tar.bz2
+Source2: http://ep09.pld-linux.org/~arekm/kde/arts-1.5.3.tar.bz2
 # Source2-md5:	e1eb7969ea16aab2bdd9d1a9736d6af3
 Source3: http://ep09.pld-linux.org/~arekm/kde/kdeaccessibility-3.5.3.tar.bz2
 # Source3-md5:	99eadb3a73bc250e96cec370ee79caff
