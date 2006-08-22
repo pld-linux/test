@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 URL:		http://kitenet.net/programs/alien/
+BuildRequires:	perl-dirs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
