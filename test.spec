@@ -25,7 +25,9 @@ pakietów binarnych.
 
 %prep
 %setup -qcT
-rpm -q --whatrequires perl-Class-DBI
+ls -l /usr/lib/libpri.so.1*
+rpm -qf /usr/lib/libpri.so*
+
 exit 1
 
 %build
