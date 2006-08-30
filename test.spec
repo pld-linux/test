@@ -1,13 +1,10 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Pakages converter (tgz, rpm, deb, slp)
-Summary(pl):	Konwerter pakietów (tgz, rpm, deb, slp)
 Name:		alien
 Version:	8.56
 Release:	1
 License:	GPL
 Group:		Applications/System
-URL:		http://kitenet.net/programs/alien/
-BuildRequires:	perl-dirs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
