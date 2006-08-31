@@ -22,7 +22,7 @@ pakietów binarnych.
 
 %prep
 %setup -qcT
-rpm -q --whatrequires jpackage-utils
+rpm -q --whatrequires rsync less chkconfig
 
 
 
