@@ -22,8 +22,10 @@ pakietów binarnych.
 
 %prep
 %setup -qcT
-ls -l /usr/lib/libpri.so.1*
-rpm -qf /usr/lib/libpri.so*
+rpm -q --whatrequires jpackage-utils
+
+
+
 
 exit 1
 
