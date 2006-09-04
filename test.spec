@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Pakages converter (tgz, rpm, deb, slp)
 Summary(pl):	Konwerter pakietów (tgz, rpm, deb, slp)
-Name:		alien
+Name:		test
 Version:	8.56
 Release:	1
 License:	GPL
@@ -170,7 +170,6 @@ Source71: http://ep09.pld-linux.org/~arekm/kde/kde-i18n/kde-i18n-zh_CN-3.5.4.tar
 # Source71-md5:	c1f8e26b1129513ef83357c65ab2db94
 Source710: http://ep09.pld-linux.org/~arekm/kde/kde-i18n/kde-i18n-zh_TW-3.5.4.tar.bz2
 # Source710-md5:	8893190922de3905ebd909ad58e45dc9
-Patch0:		%{name}-DESTDIR.patch
 URL:		http://kitenet.net/programs/alien/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 3.0.3-16
@@ -193,7 +192,6 @@ pakietów binarnych.
 
 %prep
 %setup -q -n %{name}
-%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
