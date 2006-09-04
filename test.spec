@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Pakages converter (tgz, rpm, deb, slp)
-Name:		alien
+Name:		test
 Version:	8.56
 Release:	1
 License:	GPL
