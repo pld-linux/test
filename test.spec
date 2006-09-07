@@ -5,6 +5,7 @@ Version:	8.56
 Release:	1
 License:	GPL
 Group:		Applications/System
+BuildRequires:	rsync >= 2.6.8-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,7 +23,7 @@ pakietów binarnych.
 
 %prep
 %setup -qcT
-rpm -q --whatrequires rsync less chkconfig
+#rpm -q --whatrequires rsync less chkconfig
 
 
 
