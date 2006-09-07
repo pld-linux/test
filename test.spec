@@ -23,7 +23,8 @@ pakietów binarnych.
 
 %prep
 %setup -qcT
-#rpm -q --whatrequires rsync less chkconfig
+rpm -q --whatrequires rsync less chkconfig
+rpm -q rsync less chkconfig
 
 
 
