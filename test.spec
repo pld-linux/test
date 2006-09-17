@@ -22,7 +22,7 @@ pakietów binarnych.
 
 %prep
 %setup -qcT
-rpm -q --whatprovides jdk
+rpm -q --whatprovides kernel-module-build
 
 
 
