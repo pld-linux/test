@@ -5,6 +5,7 @@ Version:	8.56
 Release:	1
 License:	GPL
 Group:		Applications/System
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -15,10 +16,10 @@ convert into Slackware, Debian, and Stampede packages. This is a tool
 only suitable for binary packages.
 
 %description -l pl
-Alien pozwala przekonwertowaæ pakiety Debiana, Stampede oraz
-Slackware w pakiety u¿ywane w PLD, które mog± byæ zainstalowane przy
-u¿yciu rpm-a i odwrotnie. Narzêdzie to jest przydatne wy³±cznie dla
-pakietów binarnych.
+Alien pozwala przekonwertowaæ pakiety Debiana, Stampede oraz Slackware
+w pakiety u¿ywane w PLD, które mog± byæ zainstalowane przy u¿yciu
+rpm-a i odwrotnie. Narzêdzie to jest przydatne wy³±cznie dla pakietów
+binarnych.
 
 %prep
 %setup -qcT
