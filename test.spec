@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 BuildRequires:	apache1-base
+BuildRequires:	apache1-mod_dir
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
