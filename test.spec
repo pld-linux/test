@@ -5,7 +5,7 @@ Version:	8.56
 Release:	1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
+BuildRequires:	apache1-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
