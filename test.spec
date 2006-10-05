@@ -18,7 +18,7 @@ Source5:	http://ep09.pld-linux.org/arekm/kde/kdeadmin-%{version}.tar.bz2
 Source6:	http://ep09.pld-linux.org/arekm/kde/kdeartwork-%{version}.tar.bz2
 # Source6-md5:	8d35156b506cf870eb9641f72a304c8c
 Source7:	http://ep09.pld-linux.org/arekm/kde/kdebase-%{version}.tar.bz2
-# Source7-md5:	7c16b95c5281dccdc9e917e74bff4029
+# Source7-md5:	2ad67fde6d979b7441ac15f46afaec01
 Source8:	http://ep09.pld-linux.org/arekm/kde/kdebindings-%{version}.tar.bz2
 # Source8-md5:	e0da219943407a786c2ceea1605fadd1
 Source9:	http://ep09.pld-linux.org/arekm/kde/kdeedu-%{version}.tar.bz2
@@ -28,7 +28,7 @@ Source10:	http://ep09.pld-linux.org/arekm/kde/kdegames-%{version}.tar.bz2
 Source11:	http://ep09.pld-linux.org/arekm/kde/kdegraphics-%{version}.tar.bz2
 # Source11-md5:	cdbe15afc01c5da7af9557e803bbb7e6
 Source12:	http://ep09.pld-linux.org/arekm/kde/kdelibs-%{version}.tar.bz2
-# Source12-md5:	ffabfdec81cb1f632f5dadb8a7be6c8d
+# Source12-md5:	f6eabff82e1a7d8533a512aed5f09260
 Source13:	http://ep09.pld-linux.org/arekm/kde/kdemultimedia-%{version}.tar.bz2
 # Source13-md5:	fc8f0911050c42aec0636cf3873e22ba
 Source14:	http://ep09.pld-linux.org/arekm/kde/kdenetwork-%{version}.tar.bz2
