@@ -1,5 +1,5 @@
 %bcond_with	i18n
-%define		urlprefix	http://ep09.pld-linux.org/~arekm/kde/
+%define		_urlprefix	http://ep09.pld-linux.org/~arekm/kde/
 %define		artsver	1.5.5
 %define		kdevelopver 3.3.4
 Summary:	Fetch KDE packages to distfiles
