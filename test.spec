@@ -2,7 +2,7 @@
 Summary:	Pakages converter (tgz, rpm, deb, slp)
 Name:		test
 Version:	8.56
-Release:	1
+Release:	0.1
 License:	GPL
 Group:		Applications/System
 BuildArch:	noarch
@@ -22,7 +22,11 @@ binarnych.
 
 %prep
 %setup -qcT
-rpm -qa '*kde*'
+set +e
+
+rpm -q --whatprovides ghostscript
+rpm -q ghostscript-afpl --provides
+rpm -q ghostscript
 
 
 exit 1
