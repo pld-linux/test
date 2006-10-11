@@ -5,6 +5,7 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
+BuildRequires:	ghostscript-esp
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,7 +27,7 @@ set +e
 
 rpm -q --whatprovides ghostscript
 rpm -q ghostscript-afpl --provides
-rpm -q ghostscript
+rpm -q ghostscript ghostscript-esp ghostscript-afpl
 
 
 exit 1
