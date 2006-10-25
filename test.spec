@@ -5,8 +5,8 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
+BuildRequires:	openobex-devel >= 1.3
 BuildArch:	noarch
-BuildConflicts: openobex-devel libbtctl libbtctl-devel python-btctl
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
