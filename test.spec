@@ -5,7 +5,6 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	ghostscript-esp
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,36 +24,14 @@ binarnych.
 %setup -qcT
 set +e
 
-rpm -q --whatprovides ghostscript
-rpm -q ghostscript-afpl --provides
-rpm -q ghostscript ghostscript-esp ghostscript-afpl
+rpm -q --whatrequires openobex
 
 
 exit 1
-
-%build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
-%{__make}
-
-%install
-rm -rf $RPM_BUILD_ROOT
-
-%{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	PREFIX=%{_prefix}
-
-bzip2 -dc %{SOURCE1} | tar xf - -C $RPM_BUILD_ROOT%{_mandir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README TODO
-%attr(755,root,root) %{_bindir}/alien
-%{_datadir}/alien
-%{perl_vendorlib}/Alien
-%{_mandir}/man*/*
-%lang(fr) %{_mandir}/fr/man1/*
-%lang(pl) %{_mandir}/pl/man1/*
+/no/files/installed
