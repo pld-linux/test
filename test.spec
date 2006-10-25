@@ -24,7 +24,7 @@ binarnych.
 %setup -qcT
 set +e
 
-rpm -q --whatrequires openobex
+rpm -q --whatrequires openobex libbtctl
 
 
 exit 1
