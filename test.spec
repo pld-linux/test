@@ -5,7 +5,7 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	openobex-devel >= 1.3
+BuildRequires:	FHS >= 2.3-15
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,7 +25,7 @@ binarnych.
 %setup -qcT
 set +e
 
-rpm -q --whatrequires openobex libbtctl
+rpm -q --whatrequires FHS filesystem
 
 
 exit 1
