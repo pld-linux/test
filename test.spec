@@ -5,11 +5,15 @@ Version:	0.8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
+Requires:	XFree86-Xvfb
+Requires:	XFree86-devel
+Provides:	xorg-lib-libX11-devel
 Provides:	xorg-lib-libXext-devel
 Provides:	xorg-lib-libXft-devel = 2.1
 Provides:	xorg-lib-libXinerama-devel
 Provides:	xorg-lib-libXp-devel
 Provides:	xorg-lib-libXt-devel
+Provides:	xorg-xserver-Xvfb
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
