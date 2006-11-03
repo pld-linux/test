@@ -5,7 +5,7 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	kdelibs-libs
+BuildRequires:	kdelibs-libs >= 9:3.5.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
