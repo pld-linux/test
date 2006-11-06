@@ -5,6 +5,7 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
+BuildRequires:	openssh-clients >= 2:4.4p1-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
