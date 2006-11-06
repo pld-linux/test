@@ -5,8 +5,6 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	kdebase-devel >= 9:3.5.5
-BuildRequires:	kdelibs-devel >= 9:3.5.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,6 +24,7 @@ binarnych.
 %setup -qcT
 set +e
 
+rpm -q openssh openssh-clients openssh-server openssh-gnome-askpass
 
 
 exit 1
