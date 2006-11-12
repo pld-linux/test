@@ -25,6 +25,7 @@ binarnych.
 set +e
 
 rpm -qf /usr/bin/pear
+rpm -qf /usr/bin/php
 
 
 exit 1
