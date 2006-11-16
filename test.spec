@@ -26,6 +26,8 @@ set +e
 
 rpm -qf /usr/bin/pear
 rpm -qf /usr/bin/php
+ls -la /usr/share/pear
+ls -la /usr/share/pear/.registry
 
 
 exit 1
