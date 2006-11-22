@@ -5,8 +5,7 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-#BuildRequires:	php4-program
-BuildRequires:	php4-cli
+BuildRequires:	php4-program
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
