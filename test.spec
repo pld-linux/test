@@ -5,7 +5,6 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	php-pcre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,11 +24,8 @@ binarnych.
 %setup -qcT
 set +e
 
-rpm -qf /usr/bin/pear
-rpm -qf /usr/bin/php
-rpm -qa 'php*'
-ls -la /usr/share/pear
-ls -la /usr/share/pear/.registry
+rpm -q --whatrequires parted
+
 
 
 exit 1
