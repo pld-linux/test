@@ -1,5 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Pakages converter (tgz, rpm, deb, slp)
+Summary:	test package to run COMMAND like commands on builder :/
 Name:		test
 Version:	8.56
 Release:	0.1
@@ -9,16 +9,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Alien allows you to convert Debian, Stampede and Slackware Packages
-into PLD packages, which can be installed with rpm. It can also
-convert into Slackware, Debian, and Stampede packages. This is a tool
-only suitable for binary packages.
+%{summary}
 
-%description -l pl
-Alien pozwala przekonwertowaæ pakiety Debiana, Stampede oraz Slackware
-w pakiety u¿ywane w PLD, które mog± byæ zainstalowane przy u¿yciu
-rpm-a i odwrotnie. Narzêdzie to jest przydatne wy³±cznie dla pakietów
-binarnych.
+this package should be never installed.
 
 %prep
 %setup -qcT
