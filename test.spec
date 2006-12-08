@@ -17,7 +17,7 @@ this package should be never installed.
 %setup -qcT
 set +e
 
-rpm -q --whatrequires parted
+rpm -q mozilla-firefox mozilla-firefox-libs
 
 
 
