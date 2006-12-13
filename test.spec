@@ -2,7 +2,7 @@
 Summary:	fake xorg provider
 Name:		fake-xorg
 Version:	0.8.56
-Release:	0.2
+Release:	0.3
 License:	GPL
 Group:		Applications/System
 Requires:	XFree86-Xvfb
@@ -15,6 +15,7 @@ Provides:	xorg-lib-libXinerama-devel
 Provides:	xorg-lib-libXmu-devel
 Provides:	xorg-lib-libXp-devel
 Provides:	xorg-lib-libXt-devel
+Provides:	xorg-util-util-macros
 Provides:	xorg-xserver-Xvfb
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
