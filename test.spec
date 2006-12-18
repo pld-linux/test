@@ -2,13 +2,15 @@
 Summary:	fake xorg provider
 Name:		fake-xorg
 Version:	0.8.56
-Release:	0.4
+Release:	0.5
 License:	GPL
 Group:		Applications/System
+Requires:	X11
 Requires:	X11-imake
 Requires:	XFree86-Xvfb
 Requires:	XFree86-devel
 Provides:	xorg-app-bdftopcf
+Provides:	xorg-app-iceauth
 Provides:	xorg-cf-files
 Provides:	xorg-lib-libX11-devel
 Provides:	xorg-lib-libXcomposite-devel
