@@ -2,7 +2,7 @@
 Summary:	fake xorg provider
 Name:		fake-xorg
 Version:	0.8.56
-Release:	0.7
+Release:	0.8
 License:	GPL
 Group:		Applications/System
 Requires:	X11
@@ -23,6 +23,7 @@ Provides:	xorg-lib-libXi-devel
 Provides:	xorg-lib-libXinerama-devel
 Provides:	xorg-lib-libXmu-devel
 Provides:	xorg-lib-libXp-devel
+Provides:	xorg-lib-libXpm-devel
 Provides:	xorg-lib-libXt-devel
 Provides:	xorg-lib-libXtst-devel
 Provides:	xorg-lib-libXv-devel
