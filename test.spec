@@ -2,11 +2,12 @@
 Summary:	fake xorg provider
 Name:		fake-xorg
 Version:	0.8.56
-Release:	0.6
+Release:	0.7
 License:	GPL
 Group:		Applications/System
 Requires:	X11
 Requires:	X11-imake
+Requires:	X11-libs
 Requires:	XFree86-Xvfb
 Requires:	XFree86-devel
 Provides:	xorg-app-bdftopcf
