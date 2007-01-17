@@ -35,7 +35,7 @@ Source13:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 Source14:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
 # Source14-md5:	0f428cccc4ea16aa53c427530874c591
 Source15:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source15-md5:	06744c36252414c809d6df46058f1bfd
+# Source15-md5:	e37e6173fe9fd7f242c9502a4ae1d7de
 Source16:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
 # Source16-md5:	1462e1a884fdaa070ed493c10a336728
 Source17:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
