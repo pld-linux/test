@@ -1,7 +1,7 @@
 %bcond_with	i18n
 %define		_urlprefix	http://ep09.pld-linux.org/~arekm/kde/
 %define		artsver	1.5.6
-%define		kdevelopver 3.3.6
+%define		kdevelopver 3.4.0
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	3.5.6
