@@ -43,7 +43,7 @@ Source17:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
 Source18:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
 # Source18-md5:	e0ea2c15ccf2bd3d8be5f2bf57cfe14a
 Source19:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
-# Source19-md5:	0de7c7d82c176456f2adff48981f5d40
+# Source19-md5:	9cf367c89329acf23738e23c0b663ee9
 Source20:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
 # Source20-md5:	fa1fc2d7c81465c7e1762014a892ced3
 %if %{with i18n}
