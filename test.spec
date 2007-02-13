@@ -5,7 +5,6 @@ Version:	8.56
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-BuildRequires:	mozilla-firefox-devel >= 2.0-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -16,17 +15,13 @@ this package should be never installed.
 
 %prep
 %setup -qcT
-set +e
-
-rpm -q mozilla-firefox mozilla-firefox-libs
-
-
-
 exit 1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%install
+
 %files
 %defattr(644,root,root,755)
-/no/files/installed
+%dir %ghost /jura
