@@ -3,7 +3,7 @@ Summary:	test package to run COMMAND like commands on builder :/
 Summary(pl.UTF-8):	Translator tablic znakÃ³w oraz dekoder MIME
 Name:		test
 Version:	8.56
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Applications/System
 BuildArch:	noarch
