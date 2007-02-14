@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	test package to run COMMAND like commands on builder :/
-Summary(pl.UTF-8):	Translator tablic znakÃ³w oraz dekoder MIME
+Summary(pl.UTF-8):	Narzędzie antywirusowe dla Uniksów
 Name:		test
 Version:	8.56
 Release:	0.3
@@ -25,4 +25,3 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %ghost /jura
