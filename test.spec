@@ -11,13 +11,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-%{summary}
-
 this package should be never installed.
 
 %prep
 %setup -qcT
-exit 1
+#exit 1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
