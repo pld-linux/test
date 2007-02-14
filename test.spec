@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	test package to run COMMAND like commands on builder :/
-Summary(pl):	Aktualizator mikrokodu procesorów Intel IA32
+Summary(pl.UTF-8):	Polskie ogonki ąęśżźćółń
 Summary(ru.UTF-8):	SMB клиент и сервер
 Name:		test
 Version:	8.56
