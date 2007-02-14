@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Polskie ogonki ąęśżźćółń
 Summary(ru.UTF-8):	SMB клиент и сервер
 Name:		test
 Version:	8.56
-Release:	0.3
+Release:	0.5
 License:	GPL
 Group:		Applications/System
 BuildArch:	noarch
