@@ -10,12 +10,19 @@ Group:		Applications/System
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		filterout_c		-march=.*
+%define		filterout_cxx	-march=.*
+
 %description
 this package should be never installed.
 
 %prep
 %setup -qcT
-#exit 1
+ls -ld /proc
+ls -l /proc
+echo CFLAGS: %{rpmcflags}
+echo CXXFLAFGS: %{rpmcxxflags}
+exit 1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
