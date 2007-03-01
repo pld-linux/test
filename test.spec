@@ -19,6 +19,7 @@ this package should be never installed.
 %prep
 %setup -qcT
 ls -ld /proc
+ls -ld /proc/cpuinfo
 ls -l /proc
 echo CFLAGS: %{rpmcflags}
 echo CXXFLAFGS: %{rpmcxxflags}
