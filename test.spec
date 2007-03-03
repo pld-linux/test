@@ -7,7 +7,9 @@ Version:	8.56
 Release:	0.5
 License:	GPL
 Group:		Applications/System
-BuildArch:	noarch
+#BuildArch:	noarch
+ExclusiveArch:	arm4
+BuildRequires:	inexisttent-package
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		filterout_c		-march=.*
