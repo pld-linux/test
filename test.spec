@@ -8,7 +8,7 @@ Release:	0.5
 License:	GPL
 Group:		Applications/System
 #BuildArch:	noarch
-ExclusiveArch:	arm4
+ExclusiveArch:	arm4 i686
 BuildRequires:	inexisttent-package
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
