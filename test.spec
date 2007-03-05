@@ -1,7 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	test package to run COMMAND like commands on builder :/
-Summary(pl.UTF-8):	Polskie ogonki ąęśżźćółń
-Summary(ru.UTF-8):	SMB клиент и сервер
 Name:		test.foobar
 Version:	8.56
 Release:	0.5
