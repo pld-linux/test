@@ -8,6 +8,7 @@ Source0:	http://dl.sourceforge.net/junit/junit4.1.zip
 # Source0-md5:	e66d3e77c70b3297f2c6a12990fc3120
 Source1:	Test.java
 Group:		Applications/System
+BuildRequires:	rpm-javaprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
