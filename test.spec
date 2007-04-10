@@ -28,8 +28,10 @@ rm -rf $RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 install -D junit-4.1.jar $RPM_BUILD_ROOT%{_javadir}/junit.jar
 install Test.class $RPM_BUILD_ROOT%{_javadir}
+install -D /bin/true $RPM_BUILD_ROOT%{_bindir}/untrue
 
 %files
 %defattr(644,root,root,755)
+%attr(755,root,root) %{_bindir}/untrue
 %{_javadir}/*.jar
 %{_javadir}/*.class
