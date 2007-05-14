@@ -1,51 +1,51 @@
 %bcond_with	i18n
-%define		_urlprefix	http://ep09.pld-linux.org/~arekm/kde/
-%define		artsver	1.5.6
-%define		kdevelopver 3.4.0
+%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
+%define		artsver	1.5.7
+%define		kdevelopver 3.5.7
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	3.5.6
+Version:	3.5.7
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source0-md5:	03d3c9f4d8c2fd12b7d0e020e11cd88e
+# Source0-md5:	49a3ffc5303a0c59abf9dcfef185f8bc
 Source1:	%{_urlprefix}/kdeaddons-%{version}.tar.bz2
-# Source1-md5:	96d6d2a76da2a5232b3b46318456a5bc
+# Source1-md5:	7b50fa8e103bd722dfcdfc329126ff28
 Source2:	%{_urlprefix}/arts-%{artsver}.tar.bz2
-# Source2-md5:	e986393a5827499bbad04a00b797add0
+# Source2-md5:	28ac10541e5d8daf9009f6af1f7857af
 Source3:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source3-md5:	13654a93e83b7c8fd2ccce3aceb2d535
+# Source3-md5:	fdf4e7e230d9b5688d72f0e1a8039e12
 Source4:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source4-md5:	4c817eab517fba30fce8f3b40a6f019d
+# Source4-md5:	4ce75cd6f98b8662e450be735bc0b060
 Source5:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source5-md5:	a53f589f58012e655a52220a6a151019
+# Source5-md5:	b421e01b3ee712549ee967f58ed24de0
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
-# Source6-md5:	d26b5f54f062b765a949d66657c2ab3c
+# Source6-md5:	bc8a95f0cfd52ad0559a775cf045f230
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	6017317b133d973e7fc8a279a81f37a1
+# Source7-md5:	e2568148df3bf5aecec2ed21c4a0e0a1
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source8-md5:	d6cdf7d9235896670d5299e9e91665e2
+# Source8-md5:	49ada123885195673d8bcbada4e9c82c
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	79a1ffb7ae89bede1410411a30be3210
+# Source9-md5:	eae753e80c5f8dd304e7fd0dca84ae67
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	e4d137879a66e92b895b3de5413a61d8
+# Source10-md5:	0e94ea8e9bc1b69dd5f5e6ae38037338
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source11-md5:	57c50bfcb0147324a1af02ebcc103376
+# Source11-md5:	3d18574ca14258fb565160aa84bf217c
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source12-md5:	0f428cccc4ea16aa53c427530874c591
+# Source12-md5:	f2c261b5d4dc467ca5f467d0181675c7
 Source13:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source13-md5:	e37e6173fe9fd7f242c9502a4ae1d7de
+# Source13-md5:	a298f7fea2de0c72f7a34979b61e53fa
 Source14:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source14-md5:	1462e1a884fdaa070ed493c10a336728
+# Source14-md5:	6a8f7b7fea753e2a4517301dee76d84a
 Source15:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source15-md5:	7d4f1a33e5379f789fcbf17b9e503bfd
+# Source15-md5:	946e58b53ac4e6374051736a0eb4cf92
 Source16:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source16-md5:	e0ea2c15ccf2bd3d8be5f2bf57cfe14a
-Source17:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
+# Source16-md5:	5f167f53bdbf0b8c71c2d0f0ff7593fd
+#Source17:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
 # Source17-md5:	9cf367c89329acf23738e23c0b663ee9
 Source18:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source18-md5:	fa1fc2d7c81465c7e1762014a892ced3
+# Source18-md5:	1329e0aea45947a14faa3d936f9edb5d
 %if %{with i18n}
 Source19:	%{_urlprefix}/kde-i18n/kde-i18n-af-%{version}.tar.bz2
 # Source19-md5:	7771bdb76b76323a68da4700bd5eaf26
