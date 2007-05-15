@@ -1,7 +1,7 @@
 %bcond_with	i18n
 %define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
 %define		artsver	1.5.7
-%define		kdevelopver 3.5.7
+%define		kdevelopver 3.4.1
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	3.5.7
@@ -42,8 +42,8 @@ Source15:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
 # Source15-md5:	946e58b53ac4e6374051736a0eb4cf92
 Source16:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
 # Source16-md5:	5f167f53bdbf0b8c71c2d0f0ff7593fd
-#Source17:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
-# Source17-md5:	9cf367c89329acf23738e23c0b663ee9
+Source17:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
+# Source17-md5:	abc6cc2831ad4c0f4da9fba9e38edce1
 Source18:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
 # Source18-md5:	1329e0aea45947a14faa3d936f9edb5d
 %if %{with i18n}
