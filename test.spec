@@ -29,13 +29,13 @@ Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
 # Source9-md5:	eae753e80c5f8dd304e7fd0dca84ae67
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	eb78bda3161e01bdbda2165d9f791ef7
+# Source10-md5:	50ed644f2ec91963570fe2b155652957
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source11-md5:	3d18574ca14258fb565160aa84bf217c
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source12-md5:	f2c261b5d4dc467ca5f467d0181675c7
+# Source12-md5:	d7f2a05a7e304b33128123c3f67ea636
 Source13:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source13-md5:	a298f7fea2de0c72f7a34979b61e53fa
+# Source13-md5:	8571db6dcf4168614c96bb72c493f931
 Source14:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
 # Source14-md5:	6a8f7b7fea753e2a4517301dee76d84a
 Source15:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
