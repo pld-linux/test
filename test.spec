@@ -1,24 +1,35 @@
-%bcond_with	i18n
-%define		_urlprefix	http://ep09.pld-linux.org/~arekm/kde/
-%define		artsver	1.5.5
-%define		kdevelopver 3.3.4
-Summary:	Fetch KDE packages to distfiles
-Name:		kdefetch
-Version:	3.5.5
+# 2.18.0
+# http://ftp.gnome.org/pub/GNOME/teams/releng/2.18.0/versions
+Summary:	Gnome updater
+Name:		gnome-updater
+Version:	2.18.0
 Release:	1
 License:	GPL
-Group:		Networking/Hacking
+Group:		Applications
+Source0:	http://ftp.gnome.org/pub/GNOME/teams/releng/2.18.0/versions
+NoSource:	0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Alien allows you to convert Debian, Stampede and Slackware Packages
-into PLD packages, which can be installed with rpm. It can also
-convert into Slackware, Debian, and Stampede packages. This is a tool
-only suitable for binary packages.
 
 %prep
-exit 1
+%setup -qcT
+cp %{SOURCE0} .
+
+%build
+awk -F: '
+/^##/{pkg = tolower(substr($0, 4)); d = 0; next }
+/^#/ {t = tolower(substr($0, 3)); pkg = pkg "-"  t; d = 0; next }
+
+!/^$/{
+if (!d) {
+	printf("\n%%%%files %%s\n", pkg);
+	printf("\n%%%%package %%s\n", pkg);
+	d = 1;
+}
+printf("Requires: %%s >= %%s\n", $2, $3);
+}' versions > base.spec
 
 %clean
 rm -rf $RPM_BUILD_ROOT
