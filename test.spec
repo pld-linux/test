@@ -19,13 +19,18 @@ cp %{SOURCE0} .
 
 %build
 awk -F: '
-/^##/{pkg = tolower(substr($0, 4)); d = 0; next }
-/^#/ {t = tolower(substr($0, 3)); pkg = pkg "-"  t; d = 0; next }
+/^##/{pkg = tolower(substr($0, 4)); subpkg = ""; d = 0; next }
+/^#/ {subpkg = tolower(substr($0, 3)); d = 0; next }
 
 !/^$/{
 if (!d) {
-	printf("\n%%%%files %%s\n", pkg);
-	printf("\n%%%%package %%s\n", pkg);
+	if (subpkg) {
+		name = pkg "-" subpkg;
+	} else {
+		name = pkg;
+	}
+	printf("\n%%%%files %%s\n", name);
+	printf("\n%%%%package %%s\n", name);
 	d = 1;
 }
 printf("Requires: %%s >= %%s\n", $2, $3);
