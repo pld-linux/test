@@ -5,6 +5,10 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 BuildArch:	noarch
+# gone with new swfdec
+Provides:	gimp-plugin-swfdec = 0.3.6-9
+# typo on pkg name
+Provides:	kdenetwork-kopete-tool-conectionstatus = 3.5.6-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -14,7 +18,7 @@ present in ac-main but are obsoleted in ac-updates.
 This package should be never installed.
 
 %prep
-%setup -q
+%setup -qcT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
