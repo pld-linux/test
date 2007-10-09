@@ -177,6 +177,10 @@ Source82:	%{_urlprefix}/kde-i18n/kde-i18n-zh_CN-%{version}.tar.bz2
 # Source82-md5:	29e2e6756afa3a6ad1b9014c91137b18
 Source83:	%{_urlprefix}/kde-i18n/kde-i18n-zh_TW-%{version}.tar.bz2
 # Source83-md5:	7defcfa0506759695f92e2835b06abeb
+Source84:	%{_urlprefix}/kde-i18n/kde-i18n-wa-%{version}.tar.bz2
+# Source84-md5:	80ab89389e45431fedf5b57630a91108
+Source85:	%{_urlprefix}/kde-i18n/kde-i18n-te-%{version}.tar.bz2
+# Source85-md5:	99623b9d093f65c63c74a6e433eef14c
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
