@@ -186,10 +186,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Alien allows you to convert Debian, Stampede and Slackware Packages
-into PLD packages, which can be installed with rpm. It can also
-convert into Slackware, Debian, and Stampede packages. This is a tool
-only suitable for binary packages.
+Fetch KDE packages to distfiles
 
 %prep
 exit 1
