@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	fake xorg provider
 Name:		fake-xorg
-Version:	0.8.56
-Release:	0.14
+Version:	7.0
+Release:	0.1
 License:	GPL
 Group:		Applications/System
 Requires:	X11
@@ -16,6 +16,7 @@ Provides:	xorg-app-iceauth
 Provides:	xorg-cf-files
 Provides:	xorg-font-font-cursor-misc
 Provides:	xorg-font-font-misc-misc-base
+Provides:	xorg-lib-libSM-devel
 Provides:	xorg-lib-libX11-devel
 Provides:	xorg-lib-libXaw-devel
 Provides:	xorg-lib-libXcomposite-devel
@@ -23,6 +24,7 @@ Provides:	xorg-lib-libXcursor-devel
 Provides:	xorg-lib-libXcursor-devel
 Provides:	xorg-lib-libXdamage-devel
 Provides:	xorg-lib-libXext-devel
+Provides:	xorg-lib-libXfixes-devel
 Provides:	xorg-lib-libXft-devel = 2.1
 Provides:	xorg-lib-libXi-devel
 Provides:	xorg-lib-libXinerama-devel
