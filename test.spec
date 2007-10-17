@@ -2,7 +2,7 @@
 Summary:	fake xorg provider
 Name:		fake-xorg
 Version:	7.0
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Applications/System
 Requires:	X11
@@ -18,6 +18,7 @@ Provides:	xorg-font-font-cursor-misc
 Provides:	xorg-font-font-misc-misc-base
 Provides:	xorg-lib-libSM-devel
 Provides:	xorg-lib-libX11-devel
+Provides:	xorg-lib-libXScrnSaver-devel
 Provides:	xorg-lib-libXaw-devel
 Provides:	xorg-lib-libXcomposite-devel
 Provides:	xorg-lib-libXcursor-devel
