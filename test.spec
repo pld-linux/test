@@ -11,7 +11,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-this package should be never installed.?
+this package should be never installed.!
 
 %prep
 %setup -qcT
