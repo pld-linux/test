@@ -4,8 +4,7 @@ Version:	0.1
 Release:	0.1
 License:	GPL
 Group:		Applications/System
-ExclusiveArch:	i686
-BuildRequires:	a
+BuildRequires:	less
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
