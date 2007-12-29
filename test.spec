@@ -5,6 +5,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 BuildRequires:	less
+BuildRequires:	gpgme
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
