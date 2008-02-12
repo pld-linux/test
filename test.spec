@@ -1,14 +1,11 @@
 #
 # Conditional build:
-%bcond_with	source		# build noarch kernel-source package
+%bcond_with	noarch	# build noarch kernel-source package
 #
-%if "%{_arch}" == "noarch"
-%define		with_source	1
-%endif
 Summary:	test
-Name:		test%{?with_source:-source}
-Version:	1
-Release:	0.1
+Name:		testarch
+Version:	2
+Release:	0.2
 License:	GPL
 Group:		Applications/System
 %if %{with source}
