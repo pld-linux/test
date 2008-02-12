@@ -6,7 +6,7 @@
 %define		with_source	1
 %endif
 Summary:	test
-Name:		kernel%{?with_source:-source}
+Name:		test%{?with_source:-source}
 Version:	1
 Release:	0.1
 License:	GPL
