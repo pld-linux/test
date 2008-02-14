@@ -45,12 +45,12 @@ Source16:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
 Source17:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
 # Source17-md5:	80d2216a0089fe142735d34ae8de6a0c
 Source18:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source18-md5:	a59c5f7ff6d54f0b7b73e4d2b78a3c4e
+# Source18-md5:	e95d1fbb698ec76966abfa5bdf96bd5e
 %if %{with i18n}
 Source19:	%{_urlprefix}/kde-i18n/kde-i18n-af-%{version}.tar.bz2
 # Source19-md5:	d0ad0a95f63aacfa0dd11b90d7bbea29
-#Source20:	%{_urlprefix}/kde-i18n/kde-i18n-ar-%{version}.tar.bz2
-## Source20-md5:	3f61f06685f66214ce28426a42419696
+Source20:	%{_urlprefix}/kde-i18n/kde-i18n-ar-%{version}.tar.bz2
+# Source20-md5:	3f61f06685f66214ce28426a42419696
 Source21:	%{_urlprefix}/kde-i18n/kde-i18n-az-%{version}.tar.bz2
 # Source21-md5:	11170e2e598ac406c08e85b9a1288b44
 Source22:	%{_urlprefix}/kde-i18n/kde-i18n-bg-%{version}.tar.bz2
