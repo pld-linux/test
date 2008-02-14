@@ -1,7 +1,7 @@
 Summary:	testing
-Name:		test
-Version:	0.1
-Release:	0.1
+Name:		test4-1
+Version:	4
+Release:	0-01
 License:	GPL
 Group:		Applications/System
 BuildRequires:	less
@@ -14,7 +14,6 @@ This package should be never installed.
 
 %prep
 %setup -qcT
-exit 13
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -22,8 +21,14 @@ rm -rf $RPM_BUILD_ROOT
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%pretrans
-exit 1
+%triggerpostun -- %{name} <= 2
+echo "%{name}-%{version}-%{release} postun on %{name} < 2"
+
+%triggerpostun -- %{name} <= 3
+echo "%{name}-%{version}-%{release} postun on %{name} < 3"
+
+%triggerpostun -- %{name} < 4
+echo "%{name}-%{version}-%{release} postun on %{name} < 4"
 
 %files
 %defattr(644,root,root,755)
