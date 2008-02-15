@@ -1,7 +1,7 @@
 # - easy way to update all sources with new/old locales:
 #   lynx -dump http://carme.pld-linux.org/~arekm/kde/kde-i18n | awk -vi=19 '/3.5.9.tar.bz2$/{printf("Source%d: %s\n", i++, $2)}' | tee out
 #   sed -i -e 's,http://carme.pld-linux.org/~arekm/kde/kde-i18n/,%{_urlprefix}/kde-i18n/,' out
-#   sed -i -e 's,3.5.9,,%{version}' out
+#   sed -i -e 's,3.5.9,%{version},' out
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	i18n
 %define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
