@@ -1,6 +1,10 @@
 #
 # Conditional build:
 %bcond_with	noarch	# build noarch kernel-source package
+
+%if "%{_arch}" == "noarch"
+%define		with_noarch	1
+%endif
 #
 Summary:	test
 Name:		testarch
@@ -25,12 +29,12 @@ source
 %setup -qcT
 echo "target: %{_arch}"
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %if %{without noarch}
 %files
