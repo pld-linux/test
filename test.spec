@@ -35,10 +35,34 @@ install -d $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+%if %{with foobar}
+echo ":asd"
+%else
+echo ":asd"
+%endif
+
+%if 0
+echo ":asd"
+
+%if %{with shalabala}
+nested
+%else
+nested
+%endif
+
+sadf
+%else
+echo ":asd"
+asdfasdf
+%endif
+
+sitaperse
+#endif
 
 %if %{without noarch}
 %files
 %defattr(644,root,root,755)
+sdaf
 %endif
 
 %if %{with noarch}
