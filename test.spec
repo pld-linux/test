@@ -1,7 +1,7 @@
 Summary:	University of Cambridge Mail Transfer Agent
 Name:		bug120
 Version:	4.69
-Release:	1.40
+Release:	1.52
 License:	GPL
 Group:		Networking/Daemons
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,7 +18,8 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%triggerpostun -- %{name} < 0:5.0-1
+%triggerpostun -- %{name} < 3.90
+set -x
 echo "triggerpostun %{name}-%{version}-%{release}"
 
 %files
