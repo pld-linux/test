@@ -1,7 +1,8 @@
 Summary:	University of Cambridge Mail Transfer Agent
-Name:		bug120
+Name:		exim
 Version:	4.69
-Release:	1.52
+Release:	1
+Epoch:		2
 License:	GPL
 Source0:	ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-2.5.1.tar.gz
 # Source0-md5:	95a559c509081fdd07d78eafd4f4c3b4
@@ -20,7 +21,7 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%triggerpostun -- %{name} < 3.90
+%triggerpostun -- exim  < 3.90
 set -x
 echo "triggerpostun %{name}-%{version}-%{release}"
 
