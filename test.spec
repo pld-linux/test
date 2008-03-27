@@ -4,8 +4,8 @@ Version:	4.69
 Release:	1
 Epoch:		2
 License:	GPL
-Source0:	ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-2.5.1.tar.gz
-# Source0-md5:	95a559c509081fdd07d78eafd4f4c3b4
+Source0:	ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-2.5.1.tar.gz.sig
+# Source0-md5:	05672b50a1b02104274dcb2f760f6a9f
 Group:		Networking/Daemons
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
