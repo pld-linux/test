@@ -1,7 +1,7 @@
 Summary:	testing
 Name:		test4-1
 Version:	4
-Release:	0-01
+Release:	0-02
 License:	GPL
 Group:		Applications/System
 BuildRequires:	less
