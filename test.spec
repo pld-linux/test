@@ -10,7 +10,7 @@
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	3.5.9
-Release:	2
+Release:	3
 License:	GPL
 Group:		Networking/Hacking
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
