@@ -2,7 +2,7 @@
 Summary:	test package to run COMMAND like commands on builder :/
 Name:		test
 Version:	8.57
-Release:	0.12
+Release:	0.13
 License:	GPL
 Group:		Applications/System
 Requires:	uname(release) >= 2.6.12
