@@ -17,7 +17,7 @@ int main() { return 1; }
 EOF
 
 %build
-%{__cc} -shared test.c -o libtest.so -Wl,-rpath,'$ORIGIN'
+%{__cc} -shared test.c -o libtest.so -Wl,-rpath,'$ORIGIN:/opt/%{_lib}'
 
 %install
 rm -rf $RPM_BUILD_ROOT
