@@ -1,28 +1,32 @@
-Summary:	University of Cambridge Mail Transfer Agent
-Name:		deptest
+Summary:	test path stripping
+Name:		t-rpath
 Version:	4.69
 Release:	3
 Epoch:		2
 License:	GPL
 Group:		Networking/Daemons
-Requires:	%%{runtimedep}
-Conflicts:	%%{runtimeconflict}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Smail like Mail Transfer Agent with single configuration file.
+%{summary}
 
 %prep
 %setup -qcT
+cat <<'EOF'> test.c
+int main() { return 1; }
+EOF
+
+%build
+%{__cc} -shared test.c -o libtest.so -Wl,-rpath,'$ORIGIN'
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/test
-install -d $RPM_BUILD_ROOT/test/aa
+install -d $RPM_BUILD_ROOT%{_libdir}
+install libtest.so $RPM_BUILD_ROOT%{_libdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/test
+%{_libdir}/libtest.so
