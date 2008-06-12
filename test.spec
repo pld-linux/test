@@ -17,16 +17,20 @@ int main() { return 1; }
 EOF
 
 %build
-%{__cc} -shared test.c -o libtest.so -Wl,-rpath,'$ORIGIN:/opt/%{_lib}:/lib/../%{_lib}/modules'
+%{__cc} -shared test.c -o libtest.so -Wl,-rpath,'$ORIGIN:/opt/%{_lib}:/lib/../%{_lib}/modules:/%{_lib}' -lz
+%{__cc} -shared test.c -o libtest2.so -Wl,-rpath,'$ORIGIN'
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}
 install libtest.so $RPM_BUILD_ROOT%{_libdir}
+install -D libtest2.so $RPM_BUILD_ROOT%{_libdir}/ratherlongpath/libtest2.so
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_libdir}/libtest.so
+%attr(755,root,root) %{_libdir}/libtest.so
+%dir %{_libdir}/ratherlongpath
+%attr(755,root,root) %{_libdir}/ratherlongpath/libtest2.so
