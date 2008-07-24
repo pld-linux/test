@@ -5,52 +5,44 @@
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	i18n
 %define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
-%define		artsver	1.5.9
-%define		kdevelopver 3.5.1
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	3.5.9
-Release:	4
+Version:	4.1.0
+Release:	1	
 License:	GPL
 Group:		Networking/Hacking
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source0-md5:	79c7fa53ec60ad51fbdb16aac56d85a1
-Source1:	%{_urlprefix}/kdeaddons-%{version}.tar.bz2
-# Source1-md5:	eaa3832a25b483d1a9613f75991c3d7b
-Source2:	%{_urlprefix}/arts-%{artsver}.tar.bz2
-# Source2-md5:	62a5e4d522314bab19288e4702480c93
-Source3:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source3-md5:	e6607ea27b332616d20f4564656cb885
-Source4:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source4-md5:	ec526eba38421fd3b143682b8d683c86
-Source5:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source5-md5:	c8c35389a238aa1b73e68ef5298eadf8
-Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
-# Source6-md5:	ba780920f6b810a30a61b1ffa888706b
-Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	cbdabe916ce6fa300f8dab972c5cb4a4
-Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source8-md5:	472385f21a692270fb5643d7617c7ff3
-Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	3d75e27180573a4e077e0245055891a5
-Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	55e5f00874933d1a7ba7c95e369a205e
-Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source11-md5:	fdfafe38d2c7e3019dafc80c177add15
-Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source12-md5:	0ec1d4ccd550510821a622eb91b893e8
-Source13:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source13-md5:	ba27b06599556c572a26f03608471ee2
-Source14:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source14-md5:	fd86abfe0ac7c5af61b15eb5367d0399
-Source15:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source15-md5:	10fd55e004a582f87eed6796811bb3b8
-Source16:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source16-md5:	dbe5ddff57141f27778601df5571e182
-Source17:	%{_urlprefix}/kdevelop-%{kdevelopver}.tar.bz2
-# Source17-md5:	80d2216a0089fe142735d34ae8de6a0c
-Source18:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source18-md5:	e95d1fbb698ec76966abfa5bdf96bd5e
+# Source0-md5:	7d53001b2db8d7d8bd82a63e8be882ae
+Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
+# Source1-md5:	c814d39956c605a8cc60016a26a9401f
+Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
+# Source2-md5:	3de07b7d7bc5219d135c68dce4266861
+Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
+# Source3-md5:	6b58b056d27e3103f087f12abe899a49
+Source4:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
+# Source4-md5:	0552896de98a70c94baf76be68a1bc5a
+Source5:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
+# Source5-md5:	0debdf843969152cb14b7186919b8c2b
+Source6:	%{_urlprefix}/kdegames-%{version}.tar.bz2
+# Source6-md5:	2c0a4c089bf31ff9bd3133c3f58c4dc7
+Source7:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
+# Source7-md5:	ebaf7fc86d35587ce188e8e440bc8bcf
+Source8:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
+# Source8-md5:	86496aed25d4dce440418b3064a27913
+Source9:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
+# Source9-md5:	7965e42c3de193bde7f1e5437c9bedec
+Source10:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
+# Source10-md5:	a28c85e1c51ed293e72813b80bb21a3c
+Source11:	%{_urlprefix}/kdepim-%{version}.tar.bz2
+# Source11-md5:	5ccd9ca2bf92c0f94ac3b0bf5a5a1344
+Source12:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
+# Source12-md5:	eb4e7bc753c80f617c113f31ab501168
+Source13:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
+# Source13-md5:	c8c9c2f66f65fc7acfa8060d08667406
+Source14:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
+# Source14-md5:	456d811618e5417e224476089df9a3b3
+Source15:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
+# Source15-md5:	58a1b35897cf0194476c9aac8a1d61e0
 %if %{with i18n}
 Source19:	%{_urlprefix}/kde-i18n/kde-i18n-af-%{version}.tar.bz2
 # Source19-md5:	d0ad0a95f63aacfa0dd11b90d7bbea29
