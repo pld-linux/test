@@ -42,7 +42,7 @@ Source13:	%{_urlprefix}/kdepim-%{version}.tar.bz2
 Source14:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
 # Source14-md5:	b1eddf3b85a70a31f6a4385948b2a6cd
 Source15:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source15-md5:
+# Source15-md5:	c67db067de416209fd63ff0deea44510
 Source16:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
 # Source16-md5:	eb4e7bc753c80f617c113f31ab501168
 Source17:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
