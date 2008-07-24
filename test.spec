@@ -122,8 +122,8 @@ Source53:	%{_urlprefix}/kde-l10n/kde-l10n-pl-%{version}.tar.bz2
 # Source53-md5:	bdc1403f878cf95771ef1f55eaea5bf1
 Source54:	%{_urlprefix}/kde-l10n/kde-l10n-pt-%{version}.tar.bz2
 # Source54-md5:	5af76c57b9aa57163192bc5ca6f51d56
-# Source55-md5:	de0643177deb5e71994d9a6f011e3a7c
 Source55:	%{_urlprefix}/kde-l10n/kde-l10n-pt_BR-%{version}.tar.bz2
+# Source55-md5:	de0643177deb5e71994d9a6f011e3a7c
 Source56:	%{_urlprefix}/kde-l10n/kde-l10n-ru-%{version}.tar.bz2
 # Source56-md5:	4bf857f4f2fd8ca8fd647b02806216c8
 Source57:	%{_urlprefix}/kde-l10n/kde-l10n-sl-%{version}.tar.bz2
