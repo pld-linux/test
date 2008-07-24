@@ -35,14 +35,16 @@ Source10:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
 # Source10-md5:	a28c85e1c51ed293e72813b80bb21a3c
 Source11:	%{_urlprefix}/kdepim-%{version}.tar.bz2
 # Source11-md5:	5ccd9ca2bf92c0f94ac3b0bf5a5a1344
-Source12:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source12-md5:	eb4e7bc753c80f617c113f31ab501168
-Source13:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source13-md5:	c8c9c2f66f65fc7acfa8060d08667406
-Source14:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source14-md5:	456d811618e5417e224476089df9a3b3
-Source15:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source15-md5:	58a1b35897cf0194476c9aac8a1d61e0
+Source12:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
+# Source12-md5:	b1eddf3b85a70a31f6a4385948b2a6cd
+Source13:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
+# Source13-md5:	eb4e7bc753c80f617c113f31ab501168
+Source14:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
+# Source14-md5:	c8c9c2f66f65fc7acfa8060d08667406
+Source15:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
+# Source15-md5:	456d811618e5417e224476089df9a3b3
+Source16:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
+# Source16-md5:	58a1b35897cf0194476c9aac8a1d61e0
 %if %{with l10n}
 Source23:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
 # Source23-md5:	6ea143c07fec4c221163d518a6b4a6ba
