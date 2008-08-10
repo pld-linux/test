@@ -17,7 +17,7 @@ Requires:	cpio
 Suggests:	/usr/bin/822-date
 Suggests:	debhelper
 BuildArch:	noarch
-BuildConflicts:	liblzo < 100:100
+BuildConflicts:	lzo < 100:100
 BuildConflicts:	blahblahsomething
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
