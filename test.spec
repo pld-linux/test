@@ -13,45 +13,45 @@ Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source0-md5:	7d53001b2db8d7d8bd82a63e8be882ae
+# Source0-md5:	9d99981713d0e36bf85dc70081562a25
 Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source1-md5:	c814d39956c605a8cc60016a26a9401f
+# Source1-md5:	612a2b1257186ec4aa86137690be8a71
 Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source2-md5:	3de07b7d7bc5219d135c68dce4266861
+# Source2-md5:	bd9a81e95cf9b6d7aff427fef343f5f1
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source3-md5:	6b58b056d27e3103f087f12abe899a49
+# Source3-md5:	891466362da4d839c15e824d1008f043
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	a19999207ad37131a2888b6e32160008
+# Source4-md5:	100cdcc07031bf04d12f7e23f9bc5945
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
-# Source5-md5:	6d08adbb9944dea896ac65fd60d72377
+# Source5-md5:	73f8e84a4a5b5af37d85a5520daeabf1
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
-# Source6-md5:	9c7ee50816ac6e0d5d2ea2f2968ac94d
+# Source6-md5:	31b04d423ebbce5faf7eaa2f92409083
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	0debdf843969152cb14b7186919b8c2b
+# Source7-md5:	2e29ee1e501d46bd00c67c0b5bfdebd4
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source8-md5:	2c0a4c089bf31ff9bd3133c3f58c4dc7
+# Source8-md5:	eb54c3b627f382fa694fa0ab8a40b3bb
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	2488d850b66eba1b542bded3def3e87e
+# Source9-md5:	8a73aa0b31d58b9eacb69b465c779a52
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	86496aed25d4dce440418b3064a27913
+# Source10-md5:	312597e801622e4b0e9208d466ec1b98
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source11-md5:	7965e42c3de193bde7f1e5437c9bedec
+# Source11-md5:	a2339f800000e2c3cc687a8535da6ed7
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source12-md5:	bd0193f2ea4f2d055c7bae0233d5e10e
+# Source12-md5:	609e06dce93a061addce565dc3820540
 Source13:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source13-md5:	5ccd9ca2bf92c0f94ac3b0bf5a5a1344
+# Source13-md5:	73ab9aef5017936e6e0d6f17506ab32d
 Source14:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
-# Source14-md5:	b1eddf3b85a70a31f6a4385948b2a6cd
+# Source14-md5:	fd82b2b05cece9d02ae3228bc715b0e3
 Source15:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source15-md5:	c67db067de416209fd63ff0deea44510
+# Source15-md5:	c961f6b0391646224aaf21b9aa63af04
 Source16:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source16-md5:	eb4e7bc753c80f617c113f31ab501168
+# Source16-md5:	9fff92efdd5ca6f8b60f293a6830fe70
 Source17:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source17-md5:	c8c9c2f66f65fc7acfa8060d08667406
+# Source17-md5:	63380dbff8492b5183230bb3a2634d80
 Source18:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source18-md5:	456d811618e5417e224476089df9a3b3
+# Source18-md5:	c5767898344b613a98f66664c1507d77
 Source19:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source19-md5:	58a1b35897cf0194476c9aac8a1d61e0
+# Source19-md5:	f45489e61335fc304388db9e4af4a6a6
 %if %{with l10n}
 Source20:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
 # Source20-md5:	6ea143c07fec4c221163d518a6b4a6ba
