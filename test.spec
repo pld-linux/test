@@ -4,10 +4,11 @@
 #   sed -i -e 's,4.1.0,%{version},' out
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	l10n
-%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
+#%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
+%define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.1.0
+Version:	4.1.85
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
