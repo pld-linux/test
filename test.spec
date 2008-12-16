@@ -23,7 +23,7 @@ Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
 # Source4-md5:	100cdcc07031bf04d12f7e23f9bc5945
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
-# Source5-md5:	73f8e84a4a5b5af37d85a5520daeabf1
+# Source5-md5:	2efd6fbcbebea61bd63f66e6a7ab6117
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
 # Source6-md5:	31b04d423ebbce5faf7eaa2f92409083
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
@@ -33,7 +33,7 @@ Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
 # Source9-md5:	8a73aa0b31d58b9eacb69b465c779a52
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	312597e801622e4b0e9208d466ec1b98
+# Source10-md5:	20aa488389768aea440d211b66437f5b
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source11-md5:	a2339f800000e2c3cc687a8535da6ed7
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
