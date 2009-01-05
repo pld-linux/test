@@ -6,7 +6,7 @@
 %bcond_with	l10n
 #%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
 #%%define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
-%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/4.1.87/src
+%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.1.87
