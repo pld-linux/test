@@ -5,11 +5,11 @@
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	l10n
 #%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
-#%%define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
-%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
+%%define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
+#%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.1.87
+Version:	4.1.96
 Release:	0.1
 License:	GPL
 Group:		Networking/Hacking
