@@ -10,7 +10,7 @@
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.1.96
-Release:	0.2
+Release:	0.3
 License:	GPL
 Group:		Networking/Hacking
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
@@ -22,7 +22,7 @@ Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
 # Source3-md5:	d9010a13848e17d6f1cef3003a035b13
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	a3fbdae9774545991aac839d9971f62c
+# Source4-md5:	2c34b66f9d1e7dfc1e0fa78087ddd773
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
 # Source5-md5:	e4fd6e11f45e5099de521867797bf86b
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
