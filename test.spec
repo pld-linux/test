@@ -10,7 +10,7 @@
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.2.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Networking/Hacking
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
@@ -22,7 +22,7 @@ Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
 # Source3-md5:	da86a8ad624e86eda3a7509f39272060
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	9e56281e9daa579d56cfda794f1bbc10
+# Source4-md5:	8ef48aae16a6dddb3055d81d7e5c375f
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
 # Source5-md5:	193e30b9ed0b55b0196289d9df43a904
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
@@ -34,7 +34,7 @@ Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
 # Source9-md5:	8beb6fe5d475d0b0245ea6d4cc7e9732
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	4ea13b88463125026a7f71937075bcec
+# Source10-md5:	2d830a922195fefe6e073111850247ac
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source11-md5:	3e944c87888ac1ac5b11d3722dd31f88
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
