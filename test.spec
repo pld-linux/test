@@ -4,8 +4,10 @@
 #   sed -i -e 's,4.1.0,%{version},' out
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	l10n
+%bcond_with	koffice
 #%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
 %define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
+%define		kofficever	1.9.98.6
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
@@ -22,7 +24,7 @@ Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
 # Source3-md5:	da86a8ad624e86eda3a7509f39272060
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	8ef48aae16a6dddb3055d81d7e5c375f
+# Source4-md5:	9e56281e9daa579d56cfda794f1bbc10
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
 # Source5-md5:	193e30b9ed0b55b0196289d9df43a904
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
@@ -34,7 +36,7 @@ Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
 # Source9-md5:	8beb6fe5d475d0b0245ea6d4cc7e9732
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	2d830a922195fefe6e073111850247ac
+# Source10-md5:	c5ba7a8a99302bfe2c70503aa621f703
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source11-md5:	3e944c87888ac1ac5b11d3722dd31f88
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
@@ -148,6 +150,10 @@ Source65:	%{_urlprefix}/kde-l10n/kde-l10n-zh_CN-%{version}.tar.bz2
 # Source65-md5:	c4730babc7bef39cea255c9528607fdc
 Source66:	%{_urlprefix}/kde-l10n/kde-l10n-zh_TW-%{version}.tar.bz2
 # Source66-md5:	08af73c8b0f82689f5ab046f0700bf9d
+%endif
+%if %{with koffice}
+Source67:	%{_urlprefix}/koffice-%{kofficever}/koffice-%{kofficever}.tar.bz2
+# Source67-md5:	00a4a0e9e0cfa60bf02a917e2267948c
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
