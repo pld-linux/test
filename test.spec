@@ -15,6 +15,7 @@ Version:	4.2.0
 Release:	3
 License:	GPL
 Group:		Networking/Hacking
+Source100:	kde4diff.sh
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
 # Source0-md5:	f32f24c4f07906b7af39ca18d47b5e27
 Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
