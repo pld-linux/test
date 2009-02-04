@@ -13,6 +13,7 @@ Version:	3.5.10
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
+Source100:	kdediff.sh
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
 # Source0-md5:	feb1582b9acc573cef8cd357d8a7bc1d
 Source1:	%{_urlprefix}/kdeaddons-%{version}.tar.bz2
