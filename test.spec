@@ -5,8 +5,6 @@ Release:	3
 Epoch:		2
 License:	GPL
 Group:		Networking/Daemons
-Requires:	%%{runtimedep}
-Conflicts:	%%{runtimeconflict}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -17,8 +15,7 @@ Smail like Mail Transfer Agent with single configuration file.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/test
-install -d $RPM_BUILD_ROOT/test/aa
+install -d $RPM_BUILD_ROOT%{_emacs_lispdir}/{%{name}-mode,site-start.d}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
