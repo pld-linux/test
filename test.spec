@@ -12,7 +12,7 @@
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.2.1
-Release:	3
+Release:	3.1
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
