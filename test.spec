@@ -7,12 +7,12 @@
 %bcond_with	koffice
 #%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
 %define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
-%define		kofficever	1.9.98.7
+%define		kofficever	1.9.99.0
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.2.2
-Release:	3
+Release:	4
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
@@ -37,7 +37,7 @@ Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
 # Source9-md5:	92ccbd703885a1f7788e4f27f281a75c
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	ff54817efef952e8812c607f5089c2e1
+# Source10-md5:	f4dd64d42656c3769a0073067d911202
 Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source11-md5:	ebdf9ccc9eae935eda5f78d56773ee9a
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
@@ -133,12 +133,12 @@ Source56:	%{_urlprefix}/kde-l10n/kde-l10n-ru-%{version}.tar.bz2
 # Source56-md5:	45b2679ac7c1554ec02816a2c509dea0
 Source57:	%{_urlprefix}/kde-l10n/kde-l10n-sl-%{version}.tar.bz2
 # Source57-md5:	3d8b43de7bd364364f01648a3bc9cf95
-Source58:	%{_urlprefix}/kde-l10n/kde-l10n-sr-%{version}.tar.bz2
-# Source58-md5:	166976c4a4129fa361f7643e57bcebce
-Source59:	%{_urlprefix}/kde-l10n/kde-l10n-sv-%{version}.tar.bz2
-# Source59-md5:	d993387a13813af942154cc1d10a3ce5
-#Source60:	%{_urlprefix}/kde-l10n/kde-l10n-ta-%{version}.tar.bz2
-# Source60-md5:	586ccb6fa1f2ef63aa1823c57201feb1
+Source58:	%{_urlprefix}/kde-l10n/kde-l10n-sk-%{version}.tar.bz2
+# Source58-md5:	855181e00df828278d4ae83e6c8aba7b
+Source59:	%{_urlprefix}/kde-l10n/kde-l10n-sr-%{version}.tar.bz2
+# Source59-md5:	166976c4a4129fa361f7643e57bcebce
+Source60:	%{_urlprefix}/kde-l10n/kde-l10n-sv-%{version}.tar.bz2
+# Source60-md5:	d993387a13813af942154cc1d10a3ce5
 Source61:	%{_urlprefix}/kde-l10n/kde-l10n-th-%{version}.tar.bz2
 # Source61-md5:	bf04317460335654aa0482ad0000b58f
 Source62:	%{_urlprefix}/kde-l10n/kde-l10n-tr-%{version}.tar.bz2
@@ -154,7 +154,7 @@ Source66:	%{_urlprefix}/kde-l10n/kde-l10n-zh_TW-%{version}.tar.bz2
 %endif
 %if %{with koffice}
 Source67:	%{_urlprefix}/koffice-%{kofficever}/koffice-%{kofficever}.tar.bz2
-# Source67-md5:	1b44eb284f35d148ea6aacb0f2408277
+# Source67-md5:	46dcbdda79c6a9aa645d1d473c8d2046
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
