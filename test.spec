@@ -6,13 +6,13 @@
 %bcond_with	l10n
 %bcond_with	koffice
 #%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
-%define		_urlprefix	http://nomeno.pl/~shadzik/kde4/
+%define		_urlprefix	http://ns1.nomeno.pl/~shadzik/kde4/
 %define		kofficever	1.9.99.0
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.2.2
-Release:	4
+Version:	4.2.3
+Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
