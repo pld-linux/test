@@ -43,7 +43,7 @@ Source11:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 Source12:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
 # Source12-md5:	f3dca4ff0df6be770692583ee3ac08ec
 Source13:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source13-md5:	39878b8521be0ac05385dd808082dc42
+# Source13-md5:	e3b14bea173511628767475f0dbfb6ac
 Source14:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
 # Source14-md5:	ee1d783140be0bb67652784f6fa93f70
 Source15:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
