@@ -58,8 +58,8 @@ Source19:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
 # Source19-md5:	f6d94afde4844f2e32fddb1069b4f19c
 Source20:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
 # Source20-md5:	b32f2e35d238a3584ad8be23586881f8
-#Source21:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
-# Source21-md5:	584cff3a47ac7eda4bec61ae5f6417aa
+Source21:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
+# Source21-md5:	a8d230f5e4359acd9af4f68e89e039f6
 %if %{with l10n}
 Source22:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
 # Source22-md5:	04352d8c1e6820505adf230ef582326a
