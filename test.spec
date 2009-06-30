@@ -2,11 +2,11 @@
 Summary:	testing something
 Name:		test
 Version:	8.72
-Release:	8
+Release:	9
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
-BuildArch:	noarch
+#BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
