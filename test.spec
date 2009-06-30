@@ -15,7 +15,18 @@ testing something
 %prep
 %setup -q -c -T
 
+%build
+cat >a.c <<EOF
+int main() { return 0; };
+EOF
+gcc a.c -o a
+
+%install
+install -d $RPM_BUILD_ROOT
+install a $RPM_BUILD_ROOT
+
 %clean
 
 %files
 %defattr(644,root,root,755)
+/a
