@@ -2,7 +2,7 @@
 Summary:	testing something
 Name:		test
 Version:	8.72
-Release:	4
+Release:	5
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
