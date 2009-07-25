@@ -8,8 +8,8 @@ Version:	3.5.5
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	ftp://ftp.opera.com/pub/opera/linux/910/final/en/i386/shared/opera-9.10-20061214.5-shared-qt.i386-en.tar.bz2
-# Source0-md5:	a60b0abe55ca580952b30f4540632425
+Source0:	http://heanet.dl.sourceforge.net/deng/deng-1.9.0-beta6.4.tar.gz
+# Source0-md5:	63fdbc11f0473535f7206f62952a1e2e
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
