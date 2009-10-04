@@ -45,7 +45,7 @@ Source12:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
 # Source13-md5:	57b44a9b59c35366a0c287c591bb9bdc
 Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source14-md5:	bccae5ed50330d867578097e3bb2a8ea
+# Source14-md5:	7e6a672bd681b2f19502798d7ed73fe8
 Source15:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
 # Source15-md5:	a998b2d6e62e79a80fefc2b3c632a3b8
 Source16:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
