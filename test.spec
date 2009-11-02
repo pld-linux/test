@@ -43,7 +43,7 @@ Source11:	%{_urlprefix}/kdelibs-experimental-%{version}.tar.bz2
 Source12:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source12-md5:	854ddc7057cac4b8bf8d7aa4b7f57516
 Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source13-md5:	3dec4242e05c77f319b974ee579aaf77
+# Source13-md5:	bb9a20da6e18a4952f7001b581aa9a1d
 Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
 # Source14-md5:	3a3c01abd6571cc337fa22d1c3601fe7
 Source15:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
