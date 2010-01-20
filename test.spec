@@ -5,61 +5,61 @@
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	l10n
 %bcond_with	koffice
-#%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
-%define		_urlprefix	http://shadzik.nomeno.pl/kde4/unstable
+%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
+# %%define		_urlprefix	http://shadzik.nomeno.pl/kde4/unstable
 %define		kofficever	1.9.99.0
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.3.90
+Version:	4.3.95
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source0-md5:	7671a58404a6eabb3a2de957bb1861b2
+# Source0-md5:	15ea47ffeec64b08192378c3bd73eeec
 Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source1-md5:	9f227d0c00c5402858d6132960ae1a77
+# Source1-md5:	2b7c489225fc963d9d999cf70c2a23ff
 Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source2-md5:	f5954a7a6fd0b99db7a6c2cbd30b5547
+# Source2-md5:	e4e65936da16b9fa02959c706a92d4e9
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source3-md5:	441a29ddea621374b7bf9439bc24fd3e
+# Source3-md5:	565b51c175ed081efd713257d463d686
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	1aa49251d4951c36cc148a648442aa80
+# Source4-md5:	380462b8b842de9ad1d78b9255f74698
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
-# Source5-md5:	21c77cd85d4c47553678d6fde8300947
+# Source5-md5:	65cf8ac8c10d2db00360951520837d08
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
-# Source6-md5:	80687fa18608e081c814fdaf467f3eb5
+# Source6-md5:	1ce11aabc0e015fef9318fb7a98014d2
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	438077bf09f6f6e2843014f8ad2d027a
+# Source7-md5:	a56823ee38a417a151bb4c4a74d5ddd9
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source8-md5:	f4f8a41584135d7186e363266ed91b7a
+# Source8-md5:	cd806e46b955f9c5c23b66f58dd4fc70
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	3006aeb02bac36dccffd9e331fb39dde
+# Source9-md5:	709131ea2aa810b4169157ad95b01b49
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	45c42bfcaa5a968a38e20a0599c4e8e9
+# Source10-md5:	0644c6edf7d7ff7ed57a0584961c230f
 #Source11:	%{_urlprefix}/kdelibs-experimental-%{version}.tar.bz2
 # Source11-md5:	9b3ed689f4f357d4fc059cf9dd41e035
 Source12:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source12-md5:	3e50a341591c45968169a43f4a94ba0c
+# Source12-md5:	baeeb00f49238f9ecfdff6303f2d471c
 Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source13-md5:	1a6a1bfaf1ce1bd836d7dfb816163ded
+# Source13-md5:	8ba584ac16ddcbc359c9e547201c259e
 Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source14-md5:	8585fdcd197fa4307d74e845bf0d40e2
+# Source14-md5:	66a094f6f292d82e5bc0722f1b9140e1
 Source15:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
-# Source15-md5:	b1dcb7dd3cea90bbc54984ae46896390
+# Source15-md5:	5e2125055d062c06c8bd7e061eb38eae
 Source16:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source16-md5:	db1680ea78ef76bc73441a91159a5a0d
+# Source16-md5:	7e120b80f8ff96057800bf2c3760258c
 Source17:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source17-md5:	5e0d82615961a7dd82b8dc6e76fe0db7
+# Source17-md5:	d3f4c5e95169e6dee316069045a1ac1b
 Source18:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source18-md5:	e50ba41c7cd8a197cbafb1af07b47a00
+# Source18-md5:	53a922d443b704e8aa023714901b534b
 Source19:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source19-md5:	0128f64e54f3b610a5284afd5b274c2b
+# Source19-md5:	2f9df940ca6b61f0339ffc75f5f9c8d5
 Source20:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source20-md5:	ae8a78dc0d41c50afda0165801dd8e90
+# Source20-md5:	7c7b1ef7c2d6908c2340e25c0a4ff86c
 Source21:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
-# Source21-md5:	919c0799f1384634362b895ea5e79c56
+# Source21-md5:	508d74f559ae3e33c4676dda64ea5bb6
 %if %{with l10n}
 Source22:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
 # Source22-md5:	fb0a71d21cf32e48a28916d365b4cd96
