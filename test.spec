@@ -11,55 +11,55 @@
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.3.95
+Version:	4.3.98
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source0-md5:	15ea47ffeec64b08192378c3bd73eeec
+# Source0-md5:	60bfd7e3b18c7aff66d29c283ed7f8c1
 Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source1-md5:	2b7c489225fc963d9d999cf70c2a23ff
+# Source1-md5:	0b3fb8da3a547b8dc4e20090ea8e4275
 Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source2-md5:	e4e65936da16b9fa02959c706a92d4e9
+# Source2-md5:	9c6b65517694009c838d2627a0653087
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source3-md5:	565b51c175ed081efd713257d463d686
+# Source3-md5:	0de28416f594a18ed092842ecda068b9
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	380462b8b842de9ad1d78b9255f74698
+# Source4-md5:	b90fe0661ac6c826598ffcea05a5cb18
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
-# Source5-md5:	65cf8ac8c10d2db00360951520837d08
+# Source5-md5:	34baa70da178a8599746407e88b1c184
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
-# Source6-md5:	1ce11aabc0e015fef9318fb7a98014d2
+# Source6-md5:	9682a736d80beacb7d0318bb225ce4dc
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	a56823ee38a417a151bb4c4a74d5ddd9
+# Source7-md5:	8f509d8cf2b8b9820fc3c802c2078c0a
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source8-md5:	cd806e46b955f9c5c23b66f58dd4fc70
+# Source8-md5:	a44baaaeae4e8921db522c38723caeb9
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	709131ea2aa810b4169157ad95b01b49
+# Source9-md5:	fc442a46b5102fb00064bb52d8a57100
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	0644c6edf7d7ff7ed57a0584961c230f
+# Source10-md5:	56cd5ff7dfe996a283ae28609047f40e
 #Source11:	%{_urlprefix}/kdelibs-experimental-%{version}.tar.bz2
 # Source11-md5:	9b3ed689f4f357d4fc059cf9dd41e035
 Source12:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source12-md5:	baeeb00f49238f9ecfdff6303f2d471c
+# Source12-md5:	e5a31e4a811909cb563acc7739b14fcb
 Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source13-md5:	8ba584ac16ddcbc359c9e547201c259e
+# Source13-md5:	1c0cd950fb2f0d33dd8393890ffdeded
 Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source14-md5:	66a094f6f292d82e5bc0722f1b9140e1
+# Source14-md5:	24d655b6d21d53d120536762186eb23c
 Source15:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
-# Source15-md5:	5e2125055d062c06c8bd7e061eb38eae
+# Source15-md5:	481d6251fb56c1dc62f78030660702f7
 Source16:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source16-md5:	7e120b80f8ff96057800bf2c3760258c
+# Source16-md5:	4b7e27220ab59a065f1467de4186ebdb
 Source17:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source17-md5:	d3f4c5e95169e6dee316069045a1ac1b
+# Source17-md5:	4e0e0391c8e0dfa0e9253ab12251f3d2
 Source18:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source18-md5:	53a922d443b704e8aa023714901b534b
+# Source18-md5:	238fbd089ce57119c2af95230c0574c9
 Source19:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source19-md5:	2f9df940ca6b61f0339ffc75f5f9c8d5
+# Source19-md5:	8b27bc785c27eda1b09735dd0998ac98
 Source20:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source20-md5:	7c7b1ef7c2d6908c2340e25c0a4ff86c
+# Source20-md5:	4c20f1fc8520727a2a9cb90f5d20145f
 Source21:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
-# Source21-md5:	508d74f559ae3e33c4676dda64ea5bb6
+# Source21-md5:	28c3952fab20cc15ba0a8b2e00080649
 %if %{with l10n}
 Source22:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
 # Source22-md5:	fb0a71d21cf32e48a28916d365b4cd96
