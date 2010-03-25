@@ -1,3 +1,4 @@
+# "Õ" - an unicode character in first 256 byte of a spec makes spec invalid
 %include	/usr/lib/rpm/macros.java
 Summary:	test package to run COMMAND like commands on builder :/
 Name:		test
