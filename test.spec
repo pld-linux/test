@@ -8,7 +8,7 @@ Version:	3.5.5
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	http://glen.alkohol.ee/pld/ESTEID-SK_2007.PEM.cer
+Source0:	http://www.sk.ee/files/ESTEID-SK%202007.PEM.cer
 # Source0-md5:	2b1a2a77f565d68fdf5f19f6cc3a5600
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
