@@ -8,8 +8,8 @@ Version:	3.5.5
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	http://carme.pld-linux.org/~glen/deng-1.9.0-beta6.4.tar.gz
-# Source0-md5:	63fdbc11f0473535f7206f62952a1e2e
+Source0:	http://glen.alkohol.ee/pld/ESTEID-SK_2007.PEM.cer
+# Source0-md5:	2b1a2a77f565d68fdf5f19f6cc3a5600
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
