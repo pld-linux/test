@@ -62,97 +62,97 @@ Source21:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
 # Source21-md5:	fb5aeee6517a1fd834cfd32a16d91780
 %if %{with l10n}
 Source22:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
-# Source22-md5:	fb0a71d21cf32e48a28916d365b4cd96
+# Source22-md5:	289f4ad35af16e1295febbc81ee0d1cc
 Source23:	%{_urlprefix}/kde-l10n/kde-l10n-ca-%{version}.tar.bz2
-# Source23-md5:	1f9e2f387083be475ec995c0e965b1cf
+# Source23-md5:	f43ef56ace9333c4b4eed913b7adaae3
 Source24:	%{_urlprefix}/kde-l10n/kde-l10n-cs-%{version}.tar.bz2
-# Source24-md5:	8d8ec27742416e134b2990abbd9af14b
+# Source24-md5:	26dc7d4009af594a66343dd4f107afb8
 Source25:	%{_urlprefix}/kde-l10n/kde-l10n-csb-%{version}.tar.bz2
-# Source25-md5:	f19c3a3bfae24f4caf98a40f6bed7463
+# Source25-md5:	aaca61dfd1f6aa5ddf620dad9d2dc409
 Source26:	%{_urlprefix}/kde-l10n/kde-l10n-da-%{version}.tar.bz2
-# Source26-md5:	b81c512af946a1e365c2eada3d82e4e0
+# Source26-md5:	18f3ea7134efe91761c2b0d4233a777f
 Source27:	%{_urlprefix}/kde-l10n/kde-l10n-de-%{version}.tar.bz2
-# Source27-md5:	c7ca5df8998b4ae0977bc706db86d89f
+# Source27-md5:	58c73228397ca61e7e6b6b2b9e3a8eb7
 Source28:	%{_urlprefix}/kde-l10n/kde-l10n-el-%{version}.tar.bz2
-# Source28-md5:	24b9e6117c254a7eb42bb7ac3ee5956e
+# Source28-md5:	2d524dfbfd92f6353357382747bbc8a7
 Source29:	%{_urlprefix}/kde-l10n/kde-l10n-en_GB-%{version}.tar.bz2
-# Source29-md5:	1596bbb2848517bba0cf50854de47e89
+# Source29-md5:	9571890944f6919cda6437de36b9d0e0
 Source30:	%{_urlprefix}/kde-l10n/kde-l10n-es-%{version}.tar.bz2
-# Source30-md5:	34dc196b2395e3a3223346cf2dafde5a
+# Source30-md5:	04e5c3bf2fc5db0d575f1160058f6b9e
 Source31:	%{_urlprefix}/kde-l10n/kde-l10n-et-%{version}.tar.bz2
-# Source31-md5:	aeb0683e93853f67c50ba2fcd1e4a41c
+# Source31-md5:	be2804a5d37778accad44d7ff137116e
 Source32:	%{_urlprefix}/kde-l10n/kde-l10n-fi-%{version}.tar.bz2
-# Source32-md5:	dc151141386e6e1af9dc2b405dd8a9d9
+# Source32-md5:	008d74aa566a7d7ad24b899e05971156
 Source33:	%{_urlprefix}/kde-l10n/kde-l10n-fr-%{version}.tar.bz2
-# Source33-md5:	faa1b6b4d9640c9a45f0e86a5af64091
+# Source33-md5:	14a2b8dda0b92e61df5079562fc90631
 #Source34:	%{_urlprefix}/kde-l10n/kde-l10n-fy-%{version}.tar.bz2
 # Source34-md5:	e5046259747f18c9d017f3606eda444c
 Source35:	%{_urlprefix}/kde-l10n/kde-l10n-ga-%{version}.tar.bz2
-# Source35-md5:	145deb5a130537b5abd8c75c316f88a5
+# Source35-md5:	313f09572ff3fc12d6e0948bbe9323a8
 Source36:	%{_urlprefix}/kde-l10n/kde-l10n-gl-%{version}.tar.bz2
-# Source36-md5:	fde9f9726edf1ba1a32302ea285a1bf5
+# Source36-md5:	b29696a293bf5d101fcc2c65ad766d6b
 Source37:	%{_urlprefix}/kde-l10n/kde-l10n-hi-%{version}.tar.bz2
-# Source37-md5:	ad1bd358a3bf4a515e95607edfdde4c9
+# Source37-md5:	ba6a612ffbf033dc39196fedeee12156
 Source38:	%{_urlprefix}/kde-l10n/kde-l10n-hu-%{version}.tar.bz2
-# Source38-md5:	ba442f81bc3ed72710e5ea1c44c2949d
+# Source38-md5:	cff446c8fec814d3c955b512afbd0bbb
 Source39:	%{_urlprefix}/kde-l10n/kde-l10n-it-%{version}.tar.bz2
-# Source39-md5:	7974d9d51286c0bbe3ce9201cea05372
+# Source39-md5:	25e59f06e9e81f9f04b0daa9b619445d
 Source40:	%{_urlprefix}/kde-l10n/kde-l10n-ja-%{version}.tar.bz2
-# Source40-md5:	e0bc5aecab2dab8a32a7a379c3bda98c
+# Source40-md5:	4d43fda933fae49e3857ea3cae3a246e
 Source41:	%{_urlprefix}/kde-l10n/kde-l10n-kk-%{version}.tar.bz2
-# Source41-md5:	c007430e5839c943c27d2c08a3271c01
+# Source41-md5:	e27a39970fd7cbd8a7a77aa4646d78b9
 Source42:	%{_urlprefix}/kde-l10n/kde-l10n-km-%{version}.tar.bz2
-# Source42-md5:	4cde7eb586388fb3268aecc901c2f297
+# Source42-md5:	98c9a0b0dea83b2166a555d251346334
 Source43:	%{_urlprefix}/kde-l10n/kde-l10n-ko-%{version}.tar.bz2
-# Source43-md5:	9a10bf30852acd34040c6fa8fcf1bc27
-Source44:	%{_urlprefix}/kde-l10n/kde-l10n-ku-%{version}.tar.bz2
-# Source44-md5:	80dbde92c9cc2a3b18ddc8f8e6bf6228
+# Source43-md5:	9193c57505c0a97c33e4f05a16dfac84
+#Source44:	%{_urlprefix}/kde-l10n/kde-l10n-ku-%{version}.tar.bz2
+## Source44-md5:	80dbde92c9cc2a3b18ddc8f8e6bf6228
 Source45:	%{_urlprefix}/kde-l10n/kde-l10n-lt-%{version}.tar.bz2
-# Source45-md5:	0f7d011ce2e22f92e7e814445cf6ff97
+# Source45-md5:	023d6c62be4b14af600efdc41d217615
 Source46:	%{_urlprefix}/kde-l10n/kde-l10n-lv-%{version}.tar.bz2
-# Source46-md5:	e097c2d2be217ae29cb769504356281c
+# Source46-md5:	132d395b1a9298402d8c70f0b000a46c
 Source47:	%{_urlprefix}/kde-l10n/kde-l10n-mk-%{version}.tar.bz2
-# Source47-md5:	853109465d2dc4031f0cd729775cca55
+# Source47-md5:	e391f33ac404ac3d0700137d1f8f9522
 Source48:	%{_urlprefix}/kde-l10n/kde-l10n-ml-%{version}.tar.bz2
-# Source48-md5:	953f5f1d4cbb785cc4d8ef4a488c6661
+# Source48-md5:	18953920117d90624f329f11b9f49fe3
 Source49:	%{_urlprefix}/kde-l10n/kde-l10n-nb-%{version}.tar.bz2
-# Source49-md5:	cfe753a7bebfda9f5f6f25399d8dad0c
+# Source49-md5:	fcf5593a127fbca1ad34c64619021812
 Source50:	%{_urlprefix}/kde-l10n/kde-l10n-nds-%{version}.tar.bz2
-# Source50-md5:	b7b453507e58788503835fec4eddd5a9
+# Source50-md5:	7fb584160fd7d23ab4e93fdad3b6f018
 Source51:	%{_urlprefix}/kde-l10n/kde-l10n-nl-%{version}.tar.bz2
-# Source51-md5:	9118bfb78b280b0228f4f299420f98ea
+# Source51-md5:	5e7d69e1c34114e5f291d3ea43822b53
 Source52:	%{_urlprefix}/kde-l10n/kde-l10n-nn-%{version}.tar.bz2
-# Source52-md5:	f6863912c5d4d326097e1f995299dbc1
+# Source52-md5:	f8e08119cd81e871e9cc2dc8293792d7
 Source53:	%{_urlprefix}/kde-l10n/kde-l10n-pa-%{version}.tar.bz2
-# Source53-md5:	a533709989a31c15600ddf9a3e3a7301
+# Source53-md5:	8d74896f4eb98b05f16cc872f10701c7
 Source54:	%{_urlprefix}/kde-l10n/kde-l10n-pl-%{version}.tar.bz2
-# Source54-md5:	25fb4028a7bb2000b06363e23efec62d
+# Source54-md5:	a2d5ebe8fd8e786e14b1cc623f9e846c
 Source55:	%{_urlprefix}/kde-l10n/kde-l10n-pt-%{version}.tar.bz2
-# Source55-md5:	257a995ca6c0adaab8024445dbce848f
+# Source55-md5:	ff72511e63e0908aef89ad4d27b58af0
 Source56:	%{_urlprefix}/kde-l10n/kde-l10n-pt_BR-%{version}.tar.bz2
-# Source56-md5:	0020f01a730b5511712a89e13a1d4d76
+# Source56-md5:	8f53e213e5845d99d2a3ba9ad8ee0b45
 Source57:	%{_urlprefix}/kde-l10n/kde-l10n-ru-%{version}.tar.bz2
-# Source57-md5:	5bc404cea173009d5a817685ca61bcad
+# Source57-md5:	54b572b164977293aef7067dc65f49cc
 Source58:	%{_urlprefix}/kde-l10n/kde-l10n-sl-%{version}.tar.bz2
-# Source58-md5:	02117baab6317032245d6ae9f958eb45
+# Source58-md5:	8b69e008e4c18c423c53785b489bd1b8
 Source59:	%{_urlprefix}/kde-l10n/kde-l10n-sk-%{version}.tar.bz2
-# Source59-md5:	24945e807ad3703f546a7f6787cb0345
+# Source59-md5:	a2d84b8a0d335c06d47d0e9554dd89dd
 Source60:	%{_urlprefix}/kde-l10n/kde-l10n-sr-%{version}.tar.bz2
-# Source60-md5:	26338c314a2a3da58f93e8f606b185c2
+# Source60-md5:	4217d7c9eaf4e5e071529c276aa22926
 Source61:	%{_urlprefix}/kde-l10n/kde-l10n-sv-%{version}.tar.bz2
-# Source61-md5:	7499b0fb6ddbb10c2f2e0fb0e88cb097
-Source62:	%{_urlprefix}/kde-l10n/kde-l10n-th-%{version}.tar.bz2
-# Source62-md5:	2c5dd52012d3e21eaefde4211bee2d1c
+# Source61-md5:	ca0112b6b66480a74cee73667db7a001
+#Source62:	%{_urlprefix}/kde-l10n/kde-l10n-th-%{version}.tar.bz2
+## Source62-md5:	2c5dd52012d3e21eaefde4211bee2d1c
 Source63:	%{_urlprefix}/kde-l10n/kde-l10n-tr-%{version}.tar.bz2
-# Source63-md5:	0d163e01436737a8f4b74d99527997a2
+# Source63-md5:	cb49ea48c6e1aac59a72ede159660890
 Source64:	%{_urlprefix}/kde-l10n/kde-l10n-uk-%{version}.tar.bz2
-# Source64-md5:	43be454febc2f9ca48b66fd5ce057898
+# Source64-md5:	ef3d4ba05bbb795c0f9db6242a83ab3b
 Source65:	%{_urlprefix}/kde-l10n/kde-l10n-wa-%{version}.tar.bz2
-# Source65-md5:	76bc9dbac978806a7cd73a53fdbe8b69
+# Source65-md5:	d282c0f07ec398d528deff32070d811d
 Source66:	%{_urlprefix}/kde-l10n/kde-l10n-zh_CN-%{version}.tar.bz2
-# Source66-md5:	7d0ddb25d6f6e21858b7811bfbd61458
+# Source66-md5:	eecb1395482c1482b3244402f7d78638
 Source67:	%{_urlprefix}/kde-l10n/kde-l10n-zh_TW-%{version}.tar.bz2
-# Source67-md5:	ce2a8abf6d8a43a4823ba2e19ad05649
+# Source67-md5:	ec1edd4964da8e6919b2966f81d35de3
 %endif
 %if %{with koffice}
 Source68:	%{_urlprefix}/koffice-%{kofficever}/koffice-%{kofficever}.tar.bz2
