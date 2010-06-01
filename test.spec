@@ -22,10 +22,13 @@ touch mina.jah sina.nii homme.naa sööme.õun toitu.jää
 : 1. undos list of files
 : 2. undos files case insensitive by extension
 : 3. undos files by extension
+: 4-5. find and pipe
 
 %undos one two three
 %undos -i -f jah,nii,naa
 %undos -f õun,jää
+find -name '*.nii' | xargs %undos
+find -name '*.jah' | xargs %undos
 
 exit 42
 
