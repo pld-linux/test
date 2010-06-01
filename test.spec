@@ -13,6 +13,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 undos macro testing
 
 %prep
+%setup -qcT
 : if we exit with status 42, we passed
 
 touch one two three
