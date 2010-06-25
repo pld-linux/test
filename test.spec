@@ -5,6 +5,7 @@ Version:	8.72
 Release:	10
 License:	GPL
 Group:		Applications/System
+Source0:	http://execve.pl/u/u?r=23
 URL:		http://www.pld-linux.org/
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
