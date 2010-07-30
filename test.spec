@@ -5,61 +5,61 @@
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	l10n
 %bcond_with	koffice
-%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
-#%%define		_urlprefix	http://shadzik.nomeno.pl/kde4/
+#%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
+%define		_urlprefix	http://shadzik.nomeno.pl/kde4/
 %define		kofficever	2.2.0
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.4.4
+Version:	4.5.0
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
 Source0:	%{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source0-md5:	bdb0442ed0762b1dd3cde82335225251
+# Source0-md5:	bbbf9d87e02e27f1f7ce1464aab48c42
 Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source1-md5:	26a1033026e300b70b297af61f5e1e1c
+# Source1-md5:	4ab5cca7981c25c86d75ba02587913b1
 Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source2-md5:	ad4047685b76d49705882c23d1eb1ab0
+# Source2-md5:	6cf2174faad066fa27ac93380ceefbc9
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source3-md5:	3e759b5ba2dbc350560c3a4316bfec71
+# Source3-md5:	3d56b10c16f48ee18864564c20ab90c7
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
-# Source4-md5:	60cc64c36942e3e761493ddfbe2bba7e
+# Source4-md5:	2e8d058d4fcfc00526376b62436025ad
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
-# Source5-md5:	6ab7328b83caab34b802d7135290f983
+# Source5-md5:	c30c9ac8b529d99846a42739522b59da
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
-# Source6-md5:	7fed573eeca601538554c943b4f400bc
+# Source6-md5:	4f072d407fca8fe62f3ae1c39711d490
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	e511d63282f2ee9ff46a0bbb7e95b9ba
+# Source7-md5:	19be97c43c4be547f638d4c34c19d449
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source8-md5:	7dd7057b6d4102f2b444263e63e672fa
+# Source8-md5:	96d6df26a7c462c865ba8631b8a95e1c
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	4555d85bb1e302d085d14d2c4ad01323
+# Source9-md5:	873493d948854b407391be694cf3dd15
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source10-md5:	1cfd94108b7654589268c0d9776fd361
-Source11:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
+# Source10-md5:	9c4b1bc5114c4960a49549aa484e7c27
+#Source11:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
 # Source11-md5:	63dff808a6a6d4b4467fddd3bfbfc0da
 Source12:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source12-md5:	2e7275b769090461c72ce4c5583374be
+# Source12-md5:	1d59380e33771bfaf511162a57555143
 Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source13-md5:	42619dc65cf8b8a6e483dff23a4a5127
-Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
+# Source13-md5:	8122564496524591b3fdb6341d989ddb
+#Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
 # Source14-md5:	aae69bbf54ffac3563f19a72b06f60b3
 Source15:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
-# Source15-md5:	e92bc0f16a919d7ea9e9c4ae47418fde
+# Source15-md5:	d040839a388d826e2ffbc3e4d1931079
 Source16:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source16-md5:	143a792dbbbef01ae94e652239b1fe57
+# Source16-md5:	306071a22b6c4600f6f4861bf3cc8ae3
 Source17:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source17-md5:	fecf6bd1dd1664147543fd65cda532e6
+# Source17-md5:	3ab740dd4badbf6816b1df741071bd1c
 Source18:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source18-md5:	08c4127cdb8f08888764989e627d210b
+# Source18-md5:	5fe873b58a5aad6ff452064d7113bfb9
 Source19:	%{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source19-md5:	f09331f3a3b1afcf489726cc9f31a186
+# Source19-md5:	61f25d6c0c6b7427cc8cc79b4bb536c5
 Source20:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source20-md5:	f3e958278ab8dd2defce029b5f61da87
+# Source20-md5:	eb51568293133a1d5305a8d1d9659f59
 Source21:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
-# Source21-md5:	fb5aeee6517a1fd834cfd32a16d91780
+# Source21-md5:	5bf91bb25cba3586d8680742dafb3ded
 %if %{with l10n}
 Source22:	%{_urlprefix}/kde-l10n/kde-l10n-bg-%{version}.tar.bz2
 # Source22-md5:	289f4ad35af16e1295febbc81ee0d1cc
