@@ -12,7 +12,7 @@
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.5.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
@@ -27,7 +27,7 @@ Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
 # Source4-md5:	2e8d058d4fcfc00526376b62436025ad
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
-# Source5-md5:	c30c9ac8b529d99846a42739522b59da
+# Source5-md5:	a552e93b963879b97853fe5e4b699d27
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
 # Source6-md5:	4f072d407fca8fe62f3ae1c39711d490
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
