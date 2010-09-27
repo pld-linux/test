@@ -8,6 +8,7 @@ Group:		Applications/System
 BuildConflicts:	java-sun
 BuildConflicts:	java-sun-jre
 BuildConflicts:	java-sun-tools
+BuildConflicts:	java-gcj-compat-base
 BuildRequires:	icedtea6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
