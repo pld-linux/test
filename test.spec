@@ -5,7 +5,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source0:	Locale-Maketext-1.17.tar.gz
-# Source0-md5:	6f2738b00dc954cf0e1575f315398593
+# Source0-md5:	0e5b8a5973a75a329b8cdb5e60f6f588
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
