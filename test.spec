@@ -4,7 +4,7 @@ Version:	1.9
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	http://sunsite.icm.edu.pl/pub/CPAN/modules/by-module/POE/POE-Component-Server-Syslog-1.18.tar.gz
+Source0:	Locale-Maketext-1.17.tar.gz
 # Source0-md5:	6f2738b00dc954cf0e1575f315398593
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
