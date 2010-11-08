@@ -4,8 +4,8 @@ Version:	1.9
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	Locale-Maketext-1.17.tar.gz
-# Source0-md5:	0e5b8a5973a75a329b8cdb5e60f6f588
+Source0:	nstx-1.1-beta6.tar.bz2
+# Source0-md5:	da6af7010de63590cc3000541ec5074f
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
