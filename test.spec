@@ -2,7 +2,7 @@
 Summary:	testing something
 Name:		test
 Version:	8.72
-Release:	10
+Release:	11
 License:	GPL
 Group:		Applications/System
 Source0:	http://execve.pl/u/u?r=23#/xxx
