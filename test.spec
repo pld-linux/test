@@ -1,8 +1,10 @@
+%define		rel		8%{?with_multigl:.mgl}
 %include	/usr/lib/rpm/macros.perl
 Summary:	testing something
 Name:		test
 Version:	8.72
-Release:	11
+#Release:	11
+Release:	%{rel}
 License:	GPL
 Group:		Applications/System
 Source0:	http://execve.pl/u/u?r=23#/xxx
