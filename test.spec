@@ -1,4 +1,4 @@
-%define		rel		8%{?with_multigl:.mgl}
+%define		rel		9%{?with_multigl:.mgl}
 %include	/usr/lib/rpm/macros.perl
 Summary:	testing something
 Name:		test
