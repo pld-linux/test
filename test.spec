@@ -4,8 +4,8 @@ Version:	1.9
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	nstx-1.1-beta6.tar.bz2
-# Source0-md5:	da6af7010de63590cc3000541ec5074f
+Source0:	http://glen.alkohol.ee/pld/selinux-bcond.patch
+# Source0-md5:	6b4672efdbd08f4bb70ea379e56bbd17
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
