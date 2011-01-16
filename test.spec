@@ -5,14 +5,14 @@
 #   and then :r out in vim and ./builder -a5 the spec
 %bcond_with	l10n
 %bcond_with	koffice
-%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
-#%%define		_urlprefix	http://shadzik.nomeno.pl/kde4/
-%define		kofficever	2.2.0
+#%%define		_urlprefix	http://carme.pld-linux.org/~arekm/kde/
+%define		_urlprefix	http://shadzik.nomeno.pl/kde4/
+%define		kofficever	2.3.1
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
 Version:	4.5.5
-Release:	2
+Release:	3
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
@@ -156,7 +156,7 @@ Source67:	%{_urlprefix}/kde-l10n/kde-l10n-zh_TW-%{version}.tar.bz2
 %endif
 %if %{with koffice}
 Source68:	%{_urlprefix}/koffice-%{kofficever}/koffice-%{kofficever}.tar.bz2
-# Source68-md5:	204afae16ff90148a61752bccd86b278
+# Source68-md5:	5ae8fa9d557f192bd6365f9450785228
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
