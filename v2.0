@@ -1,0 +1,5 @@
+
+09:33:01  glen> it "helped" if i changed case of "^revision" -> "Revision"
+09:33:05  glen> http://cvs.pld-linux.org/cgi-bin/cvsweb.cgi/packages/test/rlog-borkage2
+09:33:34  glen> i mean it shows now just 1 rev, but everything else is broken :)
+09:33:49  glen> maybe it is feature how to start revisions like "2.0" ? :)
