@@ -23,7 +23,7 @@ Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
 Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
 # Source2-md5:	b7a96990bff6d53b2519e49dfb8daf67
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source3-md5:	b2449df6483744eaa373bca86abc2389
+# Source3-md5:	35c62d4297160222166c0dc10a7ade9e
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
 # Source4-md5:	26ad7899eb589a8bc260749fd22186a8
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
