@@ -1,0 +1,8 @@
+
+blah
+
+man(1)
+
+man.1
+
+die.3
