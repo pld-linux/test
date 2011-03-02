@@ -31,7 +31,7 @@ Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
 # Source6-md5:	bdb0180bdff41ad644155d2071c98c7a
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	fcd8126fe1fc16fa8b7a09baae10842e
+# Source7-md5:	48503c6bcc58c598ee48b684f662d8fe
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 # Source8-md5:	079faf5198928e595acce2243daad39c
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
