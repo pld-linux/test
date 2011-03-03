@@ -23,7 +23,7 @@ Source1:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
 Source2:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
 # Source2-md5:	b7a96990bff6d53b2519e49dfb8daf67
 Source3:	%{_urlprefix}/kdebase-%{version}.tar.bz2
-# Source3-md5:	35c62d4297160222166c0dc10a7ade9e
+# Source3-md5:	d032fb52e5fdf2eb0b3ab37a7a06eacf
 Source4:	%{_urlprefix}/kdebase-runtime-%{version}.tar.bz2
 # Source4-md5:	26ad7899eb589a8bc260749fd22186a8
 Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
@@ -43,7 +43,7 @@ Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
 Source12:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 # Source12-md5:	6028c6e8ad41dfd32f8ae62314766f8f
 Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source13-md5:	a9b304439774fbda1b63e7114a506c1b
+# Source13-md5:	f8aefe5e7b5d773745af442009026951
 #Source14:	%{_urlprefix}/kdepim-%{version}.tar.bz2
 # Source14-md5:	aae69bbf54ffac3563f19a72b06f60b3
 Source15:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
