@@ -35,7 +35,7 @@ Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 # Source8-md5:	56f676e7bdb4475ea9ff9b08c443e919
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
-# Source9-md5:	de7a1847deb60b444feabc84845f2284
+# Source9-md5:	3aca3c307b745e7a6f6dd6b137600bdb
 Source10:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
 # Source10-md5:	7439251b812dc520d4e6ed874036412c
 #Source11:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
