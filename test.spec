@@ -31,7 +31,7 @@ Source5:	%{_urlprefix}/kdebase-workspace-%{version}.tar.bz2
 Source6:	%{_urlprefix}/kdebindings-%{version}.tar.bz2
 # Source6-md5:	085f6497be800adea167addc09b89ccc
 Source7:	%{_urlprefix}/kdeedu-%{version}.tar.bz2
-# Source7-md5:	ace71243cffca5fa9892f0a17dbcc6fc
+# Source7-md5:	259ba3e733fecd145c4389f10bee5ad1
 Source8:	%{_urlprefix}/kdegames-%{version}.tar.bz2
 # Source8-md5:	d96dd69e7e54c34d9ae18a8db6aee7e3
 Source9:	%{_urlprefix}/kdegraphics-%{version}.tar.bz2
@@ -48,8 +48,8 @@ Source13:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
 # Source14-md5:	aae69bbf54ffac3563f19a72b06f60b3
 Source15:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
 # Source15-md5:	0b0fc8d9fea0a6f26e705460a2865e18
-#Source16:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source16-md5:	98f6e080bf0cee39856408de9e531205
+Source16:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
+# Source16-md5:	f3033dc62fcc1988dec6a38796cb929d
 Source17:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
 # Source17-md5:	c4a223067a228688c6b62a6bdd67a022
 Source18:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
