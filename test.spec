@@ -7,8 +7,8 @@ License:	GPL
 Group:		Networking/Hacking
 Source0:	linux-2.6.38.tar.bz2
 # Source0-md5:	7d471477bfa67546f902da62227fa976
-Patch1:		patch-2.6.38.8.bz2
-# Patch1-md5:	c0f416f6a2e916633f697287cc7cb914
+Patch1:		bar_1.11.1.tar.gz
+# Patch1-md5:	4836a9767cbfb9c0b16020d23b4b5e91
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
