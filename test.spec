@@ -37,13 +37,13 @@ Source8: %{_urlprefix}/kbruch-%{version}.tar.bz2
 # Source8-md5:	95a186add683373cdae592e259a250ae
 Source9: %{_urlprefix}/kcolorchooser-%{version}.tar.bz2
 # Source9-md5:	9b8074f7362a6ad4a35fbebb0156a0f1
-Source10: %{_urlprefix}/kde-l10n/kde-baseapps-%{version}.tar.bz2
+Source10: %{_urlprefix}/kde-baseapps-%{version}.tar.bz2
 # Source10-md5:	f477884f2c25ea23a69b74a2f675c8f6
-Source11: %{_urlprefix}/kde-l10n/kde-runtime-%{version}.tar.bz2
+Source11: %{_urlprefix}/kde-runtime-%{version}.tar.bz2
 # Source11-md5:	927c47f79000f7af66b845600a21e9f5
-Source12: %{_urlprefix}/kde-l10n/kde-wallpapers-%{version}.tar.bz2
+Source12: %{_urlprefix}/kde-wallpapers-%{version}.tar.bz2
 # Source12-md5:	643eade621034d84803db793089a9c24
-Source13: %{_urlprefix}/kde-l10n/kde-workspace-%{version}.tar.bz2
+Source13: %{_urlprefix}/kde-workspace-%{version}.tar.bz2
 # Source13-md5:	128738157adc30030aa590f90109dbb9
 Source14: %{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
 # Source14-md5:	0713f18f7d9ccbfb7d8e045ac9e195cc
