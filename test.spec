@@ -45,8 +45,8 @@ Source12: %{_urlprefix}/kde-wallpapers-%{version}.tar.bz2
 # Source12-md5:	5de1aa547416d704679b154cc8eb3b36
 Source13: %{_urlprefix}/kde-workspace-%{version}.tar.bz2
 # Source13-md5:	53a2058c17c19d64bd2de6ee798b5402
-#Source14: %{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
-# Source14-md5:	0713f18f7d9ccbfb7d8e045ac9e195cc
+##Source14: %{_urlprefix}/kdeaccessibility-%{version}.tar.bz2
+## Source14-md5:	0713f18f7d9ccbfb7d8e045ac9e195cc
 Source15: %{_urlprefix}/kdeadmin-%{version}.tar.bz2
 # Source15-md5:	a436fafadc302f82d80c5aca115af48b
 Source16: %{_urlprefix}/kdeartwork-%{version}.tar.bz2
@@ -75,8 +75,8 @@ Source27: %{_urlprefix}/kdesdk-%{version}.tar.bz2
 # Source27-md5:	228c5d6b7fbdf4112d27c4ee26eadb30
 Source28: %{_urlprefix}/kdetoys-%{version}.tar.bz2
 # Source28-md5:	feba907d9797f445945e3521624ac184
-#Source29: %{_urlprefix}/kdeutils-%{version}.tar.bz2
-# Source29-md5:	346d3e6a7fbce8f2359bfc3ce28941f3
+##Source29: %{_urlprefix}/kdeutils-%{version}.tar.bz2
+## Source29-md5:	346d3e6a7fbce8f2359bfc3ce28941f3
 Source30: %{_urlprefix}/kdewebdev-%{version}.tar.bz2
 # Source30-md5:	f25fdacd5118a320a5d01bb8df34debb
 Source31: %{_urlprefix}/kgamma-%{version}.tar.bz2
