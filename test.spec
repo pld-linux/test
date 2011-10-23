@@ -5,8 +5,8 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/bouncycastle/bcprov-jdk16-146-FEDORA.tar.gz/a522ba5ababb6505dbd474c3cb924d29/bcprov-jdk16-146-FEDORA.tar.gz
-# Source0-md5:	a522ba5ababb6505dbd474c3cb924d29
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/bouncycastle-mail/bcmail-jdk16-146-FEDORA.tar.gz/d7b27678d5fdebaf79a19ef34ae9d9b3/bcmail-jdk16-146-FEDORA.tar.gz
+# Source0-md5:	d7b27678d5fdebaf79a19ef34ae9d9b3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
