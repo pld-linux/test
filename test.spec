@@ -5,8 +5,8 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/ws-jaxme/ws-jaxme-0.5.1-src.tar.gz/9709c7fb68880d494c3c347c3faa74c8/ws-jaxme-0.5.1-src.tar.gz
-# Source0-md5:	9709c7fb68880d494c3c347c3faa74c8
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/xmldb-api/xmldb-xapi-20011111cvs-src.tar.gz/559bdc3a09ea2dd6cd914103631e7141/xmldb-xapi-20011111cvs-src.tar.gz
+# Source0-md5:	559bdc3a09ea2dd6cd914103631e7141
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
