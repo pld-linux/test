@@ -1,11 +1,12 @@
-Summary:	test package to run COMMAND like commands on builder :/
+Summary:	fetch files from fedora distfiles
 Name:		test
 Version:	2.1.7
 Release:	0.10
 License:	GPL
 Group:		Applications/System
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/itext/iText-src-2.1.7.tar.gz/38c3d47e0f0a87a8151b5b2f208b461e/iText-src-2.1.7.tar.gz
-# Source0-md5:	38c3d47e0f0a87a8151b5b2f208b461e
+# http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/ws-jaxme/ws-jaxme-0.5.1-src.tar.gz/9709c7fb68880d494c3c347c3faa74c8/ws-jaxme-0.5.1-src.tar.gz
+# Source0-md5:	9709c7fb68880d494c3c347c3faa74c8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
