@@ -5,8 +5,8 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/xmldb-api/xmldb-xapi-20011111cvs-src.tar.gz/559bdc3a09ea2dd6cd914103631e7141/xmldb-xapi-20011111cvs-src.tar.gz
-# Source0-md5:	559bdc3a09ea2dd6cd914103631e7141
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/bouncycastle/bcprov-jdk16-146-FEDORA.tar.gz/a522ba5ababb6505dbd474c3cb924d29/bcprov-jdk16-146-FEDORA.tar.gz
+# Source0-md5:	a522ba5ababb6505dbd474c3cb924d29
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
