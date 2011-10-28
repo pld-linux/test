@@ -1,14 +1,13 @@
-%include	/usr/lib/rpm/macros.perl
+%define		plugin configmanager
 Summary:	testing something
-Name:		builder-md5patch
+Name:		builder
 Version:	1
 Release:	0.1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
-# http://forums.cacti.net/download.php?id=10980
-Source1:	sharednetworkclass0.40.zip
-# Source1-md5:	b438751d7b696a10a8958ea6e0f407f3
+Source0:	http://forums.cacti.net/download/file.php?id=21891#/%{plugin}-%{version}.zip
+# Source0-md5:	d3cdb035a4d47ff464916774dd953457
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
