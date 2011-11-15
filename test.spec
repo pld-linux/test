@@ -1,29 +1,31 @@
-%define		prefix	http://carme.pld-linux.org/~glen/horde/
 Summary:	Distfiles Fetcher
-Name:		distfiles
-Version:	1.9
+Name:		distfiles-mtime
+Version:	2011.11.02
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	linux-2.6.38.tar.bz2
-# Source0-md5:	7d471477bfa67546f902da62227fa976
-Patch1:		bar_1.11.1.tar.gz
-# Patch1-md5:	4836a9767cbfb9c0b16020d23b4b5e91
+Source0:	http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+# Source0-md5:	2f6e084013b442bb94a7ef0232818d3f
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Alien allows you to convert Debian, Stampede and Slackware Packages
-into PLD packages, which can be installed with rpm. It can also
-convert into Slackware, Debian, and Stampede packages. This is a tool
-only suitable for binary packages.
+this test should ensure distfiles stores files with original timestamp
 
 %prep
-exit 1
+%setup -qcT
+cp -p %{SOURCE0} .
+ls -l *dat*
+gunzip GeoIP.dat.gz
+ls -l *dat*
+
+ver=$(stat -c '%y' GeoIP.dat | awk '{print $1}' | tr - .)
+if [ "$ver" != %{version} ]; then
+	exit 1
+fi
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README TODO
