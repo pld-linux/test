@@ -6,8 +6,8 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
-Source0:	http://forums.cacti.net/download/file.php?id=21891#/%{plugin}-%{version}.zip
-# Source0-md5:	d3cdb035a4d47ff464916774dd953457
+Source0:	https://swfupload.googlecode.com/files/SWFUpload%20v%{version}%20Core.zip
+# Source0-md5:	1bf14f5a7a9a3ecc529378ee50f0c59b
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
