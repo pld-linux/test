@@ -159,6 +159,8 @@ Source69: %{_urlprefix}/step-%{version}.tar.bz2
 # Source69-md5:	e476da52857ac1d753d821e4732c0126
 Source70: %{_urlprefix}/svgpart-%{version}.tar.bz2
 # Source70-md5:	17a325765568945ddbb12a391886b433
+Source71: %{_urlprefix}/kactivities-%{version}.tar.bz2
+# Source71-md5:	ef762f0ecf2cda78212e6aa6946ffd13
 %if %{with l10n}
 Source100: %{_urlprefix}/kde-l10n/kde-l10n-ar-%{version}.tar.bz2
 # Source100-md5:	e335c913f721664dc383542367cdcbf2
