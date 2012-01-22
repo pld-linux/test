@@ -62,7 +62,7 @@ Source20:	%{_urlprefix}/kde-runtime-%{version}.tar.bz2
 Source21:	%{_urlprefix}/kde-wallpapers-%{version}.tar.bz2
 # Source21-md5:	396aa669ab31ab32f73f2278e6ca143a
 Source22:	%{_urlprefix}/kde-workspace-%{version}.tar.bz2
-# Source22-md5:	4a80d477c659bc1fed4c1829065db01b
+# Source22-md5:	cd921fa05bdf6e599f12389bc2318cf4
 Source23:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
 # Source23-md5:	4ae902b75b009bd7dca5e8d1423c0fc4
 Source24:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
