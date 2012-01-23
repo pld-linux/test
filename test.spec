@@ -62,7 +62,7 @@ Source20:	%{_urlprefix}/kde-runtime-%{version}.tar.bz2
 Source21:	%{_urlprefix}/kde-wallpapers-%{version}.tar.bz2
 # Source21-md5:	396aa669ab31ab32f73f2278e6ca143a
 Source22:	%{_urlprefix}/kde-workspace-%{version}.tar.bz2
-# Source22-md5:	cd921fa05bdf6e599f12389bc2318cf4
+# Source22-md5:	19f40e351df9db3d434a5a579fe7e529
 Source23:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
 # Source23-md5:	4ae902b75b009bd7dca5e8d1423c0fc4
 Source24:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
@@ -82,11 +82,11 @@ Source30:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
 Source31:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
 # Source31-md5:	4fc00a35dc3f0b3b06a2b6be3086563d
 Source32:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source32-md5:	9e74dce1f43382bfc33aa1c6bfc3519c
+# Source32-md5:	502216fe546ee87b7bb66f2da5599417
 Source33:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
-# Source33-md5:	3a45035530a440652ecf69548334efbc
+# Source33-md5:	8f941417152fd2ae9e5130cf0426a95e
 Source34:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
-# Source34-md5:	9ebb57b689a874c7853b7dfa83af4c9d
+# Source34-md5:	3e1ea1d5f56eb87c0c305d941ac414c0
 Source35:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
 # Source35-md5:	5b2947ef92fc04aecca8af4393336265
 Source36:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
