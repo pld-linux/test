@@ -20,7 +20,7 @@ Source100:	kde4diff.sh
 Source0:	%{_urlprefix}/analitza-%{version}.tar.bz2
 # Source0-md5:	a45981814327beb81ddfef209dbbb076
 Source1:	%{_urlprefix}/ark-%{version}.tar.bz2
-# Source1-md5:	b5d1f9105fa2196c3a755b9f12267ac2
+# Source1-md5:	e705235a81a198564c067bdfcb29ef10
 Source2:	%{_urlprefix}/blinken-%{version}.tar.bz2
 # Source2-md5:	0dba841a998fec4ada7fbf068d0c38b0
 Source3:	%{_urlprefix}/cantor-%{version}.tar.bz2
@@ -104,7 +104,7 @@ Source41:	%{_urlprefix}/kgamma-%{version}.tar.bz2
 Source42:	%{_urlprefix}/kgeography-%{version}.tar.bz2
 # Source42-md5:	72d1154427723353ad76e48bfc753f02
 Source43:	%{_urlprefix}/kgpg-%{version}.tar.bz2
-# Source43-md5:	ad7d6fc9f9b904a2cae11e600df32d25
+# Source43-md5:	7c757f10db719f6e16cc8bb70f67504e
 Source44:	%{_urlprefix}/khangman-%{version}.tar.bz2
 # Source44-md5:	a738b368d9a8516bb75b0d84f3285258
 Source45:	%{_urlprefix}/kig-%{version}.tar.bz2
