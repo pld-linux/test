@@ -11,194 +11,194 @@
 #%%define		_urlprefix	ftp://ftp.pbone.net/mirror/ftp.kde.org/pub/kde/unstable/%{version}/src
 Summary:	Fetch KDE packages to distfiles
 Name:		kdefetch
-Version:	4.8.0
+Version:	4.8.1
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
 Source100:	kde4diff.sh
 # Source100-md5:	e335c913f721664dc383542367cdcbf2
-Source0:	%{_urlprefix}/analitza-%{version}.tar.bz2
-# Source0-md5:	a45981814327beb81ddfef209dbbb076
-Source1:	%{_urlprefix}/ark-%{version}.tar.bz2
-# Source1-md5:	e705235a81a198564c067bdfcb29ef10
-Source2:	%{_urlprefix}/blinken-%{version}.tar.bz2
-# Source2-md5:	0dba841a998fec4ada7fbf068d0c38b0
-Source3:	%{_urlprefix}/cantor-%{version}.tar.bz2
-# Source3-md5:	aa2e06f133615d44143cf6ad6da52aaf
-Source4:	%{_urlprefix}/filelight-%{version}.tar.bz2
-# Source4-md5:	998178e03e56a6074b5c7d8b78dc28e4
-Source5:	%{_urlprefix}/gwenview-%{version}.tar.bz2
-# Source5-md5:	d6339e29d9731dace7bb52f86e99a30e
-Source6:	%{_urlprefix}/jovie-%{version}.tar.bz2
-# Source6-md5:	17104dcbc028b4f36ba6999426168670
-Source7:	%{_urlprefix}/kaccessible-%{version}.tar.bz2
-# Source7-md5:	942a509f3ccdf292afb75c9d32c7e136
-Source8:	%{_urlprefix}/kactivities-%{version}.tar.bz2
-# Source8-md5:	ef762f0ecf2cda78212e6aa6946ffd13
-Source9:	%{_urlprefix}/kalgebra-%{version}.tar.bz2
-# Source9-md5:	8d5ff9c91c0203c3608af10eeb67195c
-Source10:	%{_urlprefix}/kalzium-%{version}.tar.bz2
-# Source10-md5:	9da1db7aca2bc178c11549598a02a3fb
-Source11:	%{_urlprefix}/kamera-%{version}.tar.bz2
-# Source11-md5:	2d7340b1215c24d1e98875c5eea4d54d
-Source12:	%{_urlprefix}/kanagram-%{version}.tar.bz2
-# Source12-md5:	e4768621391911542d2986a3571a0c3f
-Source13:	%{_urlprefix}/kate-%{version}.tar.bz2
-# Source13-md5:	abe76125a855e91c2c86849cbf1b8350
-Source14:	%{_urlprefix}/kbruch-%{version}.tar.bz2
-# Source14-md5:	898ee167ac04a5945f4d90191aa1bea9
-Source15:	%{_urlprefix}/kcalc-%{version}.tar.bz2
-# Source15-md5:	783fa13b557779d6ce661451a71a56c4
-Source16:	%{_urlprefix}/kcharselect-%{version}.tar.bz2
-# Source16-md5:	4150d41fe47882c9a3f994dba15283eb
-Source17:	%{_urlprefix}/kcolorchooser-%{version}.tar.bz2
-# Source17-md5:	48ede55e885819143f229c1f6bb2d388
-Source18:	%{_urlprefix}/kde-baseapps-%{version}.tar.bz2
-# Source18-md5:	6d3f3d4e030aa2aa690b6fc3124b5832
+Source0:	%{_urlprefix}/analitza-%{version}.tar.xz
+# Source0-md5:	d7271f7bf8e379aff579aed24bb4a956
+Source1:	%{_urlprefix}/ark-%{version}.tar.xz
+# Source1-md5:	0617846872e4390f998711a74b5a7805
+Source2:	%{_urlprefix}/blinken-%{version}.tar.xz
+# Source2-md5:	2fe2cf873683e3c583152d1986bbee90
+Source3:	%{_urlprefix}/cantor-%{version}.tar.xz
+# Source3-md5:	41ee1a7408324a690cca543832105ad3
+Source4:	%{_urlprefix}/filelight-%{version}.tar.xz
+# Source4-md5:	57d6d1d4c78ab74243b412804259a804
+Source5:	%{_urlprefix}/gwenview-%{version}.tar.xz
+# Source5-md5:	2b9124dd481aa26132de54349be2ef57
+Source6:	%{_urlprefix}/jovie-%{version}.tar.xz
+# Source6-md5:	e1185281ea0e2c221dc25bd5644da022
+Source7:	%{_urlprefix}/kaccessible-%{version}.tar.xz
+# Source7-md5:	4c44447f831d804d8cd12c59315f9ff8
+Source8:	%{_urlprefix}/kactivities-%{version}.tar.xz
+# Source8-md5:	ed51cc5d594d88712afa5a556dbc53e8
+Source9:	%{_urlprefix}/kalgebra-%{version}.tar.xz
+# Source9-md5:	fdee9c8b80a3872492e3648db8f54026
+Source10:	%{_urlprefix}/kalzium-%{version}.tar.xz
+# Source10-md5:	fe3c9ea4257ca146af9cbacf103507f8
+Source11:	%{_urlprefix}/kamera-%{version}.tar.xz
+# Source11-md5:	2b5875c55f2a658eec603131d1c5cdad
+Source12:	%{_urlprefix}/kanagram-%{version}.tar.xz
+# Source12-md5:	dc461aaf6cc4b2b0937abf506f96b654
+Source13:	%{_urlprefix}/kate-%{version}.tar.xz
+# Source13-md5:	cf2e11bd3a25080694cd8498ce3f49ba
+Source14:	%{_urlprefix}/kbruch-%{version}.tar.xz
+# Source14-md5:	bfaf6bc67bb7fda475c5a1f4760f5ddf
+Source15:	%{_urlprefix}/kcalc-%{version}.tar.xz
+# Source15-md5:	b5fb8194d7dee8d933cb48c4fe04bb89
+Source16:	%{_urlprefix}/kcharselect-%{version}.tar.xz
+# Source16-md5:	41d89a446e49f3d2c2dff1a8bdb60f89
+Source17:	%{_urlprefix}/kcolorchooser-%{version}.tar.xz
+# Source17-md5:	9ae91d18499cc185b385bf0c508bb08d
+Source18:	%{_urlprefix}/kde-baseapps-%{version}.tar.xz
+# Source18-md5:	f9421df243f935ab7076fe7be7572cec
 Source19:	%{_urlprefix}/kde-l10n
 # Source19-md5:	40ff7f8eb50b837f871140280f3f5634
-Source20:	%{_urlprefix}/kde-runtime-%{version}.tar.bz2
-# Source20-md5:	571563f6ab330348d3f917abdf9c69e4
-Source21:	%{_urlprefix}/kde-wallpapers-%{version}.tar.bz2
-# Source21-md5:	396aa669ab31ab32f73f2278e6ca143a
-Source22:	%{_urlprefix}/kde-workspace-%{version}.tar.bz2
-# Source22-md5:	19f40e351df9db3d434a5a579fe7e529
-Source23:	%{_urlprefix}/kdeadmin-%{version}.tar.bz2
-# Source23-md5:	4ae902b75b009bd7dca5e8d1423c0fc4
-Source24:	%{_urlprefix}/kdeartwork-%{version}.tar.bz2
-# Source24-md5:	19f5f7c2294deae9741a6cd70005cc4a
-Source25:	%{_urlprefix}/kdegames-%{version}.tar.bz2
-# Source25-md5:	20d3b5ead912bc8d6d326cdb305f1b90
-Source26:	%{_urlprefix}/kdegraphics-mobipocket-%{version}.tar.bz2
-# Source26-md5:	a6e9fcc99189802d130d19824521ac42
-Source27:	%{_urlprefix}/kdegraphics-strigi-analyzer-%{version}.tar.bz2
-# Source27-md5:	f25df7e81603bcb02c4246eef3826381
-Source28:	%{_urlprefix}/kdegraphics-thumbnailers-%{version}.tar.bz2
-# Source28-md5:	3676f3f233968b12d1bdac40931dde30
-Source29:	%{_urlprefix}/kdelibs-%{version}.tar.bz2
-# Source29-md5:	c19858c68f9a209ae521d7fb3c34747b
-Source30:	%{_urlprefix}/kdemultimedia-%{version}.tar.bz2
-# Source30-md5:	b1217b735e6ac8abce1b6423601e1be3
-Source31:	%{_urlprefix}/kdenetwork-%{version}.tar.bz2
-# Source31-md5:	4fc00a35dc3f0b3b06a2b6be3086563d
-Source32:	%{_urlprefix}/kdepim-%{version}.tar.bz2
-# Source32-md5:	502216fe546ee87b7bb66f2da5599417
-Source33:	%{_urlprefix}/kdepim-runtime-%{version}.tar.bz2
-# Source33-md5:	8f941417152fd2ae9e5130cf0426a95e
-Source34:	%{_urlprefix}/kdepimlibs-%{version}.tar.bz2
-# Source34-md5:	3e1ea1d5f56eb87c0c305d941ac414c0
-Source35:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.bz2
-# Source35-md5:	5b2947ef92fc04aecca8af4393336265
-Source36:	%{_urlprefix}/kdesdk-%{version}.tar.bz2
-# Source36-md5:	a5a1265a74c5a73cf39d65cad0bd4bd4
-Source37:	%{_urlprefix}/kdetoys-%{version}.tar.bz2
-# Source37-md5:	71856659db5cf9333499e06f24c0135e
-Source38:	%{_urlprefix}/kdewebdev-%{version}.tar.bz2
-# Source38-md5:	d247fd36ece60bd9d6beaf8f5feb7a1f
-Source39:	%{_urlprefix}/kdf-%{version}.tar.bz2
-# Source39-md5:	11ec8e7098f020574b925c614e9f46f2
-Source40:	%{_urlprefix}/kfloppy-%{version}.tar.bz2
-# Source40-md5:	0fff088aaf5a9aa8f1ffd5fabd24fd1a
-Source41:	%{_urlprefix}/kgamma-%{version}.tar.bz2
-# Source41-md5:	34169d11b670944d7e373d61a220c95c
-Source42:	%{_urlprefix}/kgeography-%{version}.tar.bz2
-# Source42-md5:	72d1154427723353ad76e48bfc753f02
-Source43:	%{_urlprefix}/kgpg-%{version}.tar.bz2
-# Source43-md5:	7c757f10db719f6e16cc8bb70f67504e
-Source44:	%{_urlprefix}/khangman-%{version}.tar.bz2
-# Source44-md5:	a738b368d9a8516bb75b0d84f3285258
-Source45:	%{_urlprefix}/kig-%{version}.tar.bz2
-# Source45-md5:	2798cb1881a1fefbdc0f051db99cd2b5
-Source46:	%{_urlprefix}/kimono-%{version}.tar.bz2
-# Source46-md5:	ad5d0e7b45a7b1900cfdeb969dc5d290
-Source47:	%{_urlprefix}/kiten-%{version}.tar.bz2
-# Source47-md5:	cf787e0c3037a38a5e56f1927cee4693
-Source48:	%{_urlprefix}/klettres-%{version}.tar.bz2
-# Source48-md5:	f60c9d948e03adcf9b87866c3e489b15
-Source49:	%{_urlprefix}/kmag-%{version}.tar.bz2
-# Source49-md5:	e693f27fc5a4fe234c474fc164cd44fa
-Source50:	%{_urlprefix}/kmousetool-%{version}.tar.bz2
-# Source50-md5:	80273941c1cd0264a330b156c5412f46
-Source51:	%{_urlprefix}/kmouth-%{version}.tar.bz2
-# Source51-md5:	7c6d8d90949e5f1145ab95710a200c7c
-Source52:	%{_urlprefix}/kmplot-%{version}.tar.bz2
-# Source52-md5:	9922acd164d3b152551ad8a501e7e6a6
-Source53:	%{_urlprefix}/kolourpaint-%{version}.tar.bz2
-# Source53-md5:	04129e9cdef1f964612a77b97c4bd9f3
-Source54:	%{_urlprefix}/konsole-%{version}.tar.bz2
-# Source54-md5:	630da3df5545457f69e3aa86327b76b4
-Source55:	%{_urlprefix}/korundum-%{version}.tar.bz2
-# Source55-md5:	5efef73e24ad15bafb894fb765f466d9
-Source56:	%{_urlprefix}/kremotecontrol-%{version}.tar.bz2
-# Source56-md5:	90c5dfece8cbdec64b9c809303387fb3
-Source57:	%{_urlprefix}/kross-interpreters-%{version}.tar.bz2
-# Source57-md5:	d588c7afa24bb9fdd619737bdc61607f
-Source58:	%{_urlprefix}/kruler-%{version}.tar.bz2
-# Source58-md5:	98036f7a77e914aaae3da9ca9d638806
-Source59:	%{_urlprefix}/ksaneplugin-%{version}.tar.bz2
-# Source59-md5:	457a8a796937c7eda4e118d71f65a0fa
-Source60:	%{_urlprefix}/ksecrets-%{version}.tar.bz2
-# Source60-md5:	fa126591e8da34e16b65ecfad9f3907a
-Source61:	%{_urlprefix}/ksnapshot-%{version}.tar.bz2
-# Source61-md5:	dfa82ee16987070b2150b9426dd2ac35
-Source62:	%{_urlprefix}/kstars-%{version}.tar.bz2
-# Source62-md5:	3f87bdcb332e9e15c158b0fbeb134755
-Source63:	%{_urlprefix}/ktimer-%{version}.tar.bz2
-# Source63-md5:	a1d854ca4a975f0035bf517fcee95d34
-Source64:	%{_urlprefix}/ktouch-%{version}.tar.bz2
-# Source64-md5:	9a691e993c46253d2a087c15d0404c76
-Source65:	%{_urlprefix}/kturtle-%{version}.tar.bz2
-# Source65-md5:	f14b8db9ee9516b7ce0779b6726c38ef
-Source66:	%{_urlprefix}/kwallet-%{version}.tar.bz2
-# Source66-md5:	346fea9e992b85bf8de285160dfb9705
-Source67:	%{_urlprefix}/kwordquiz-%{version}.tar.bz2
-# Source67-md5:	dc68a189fb8988f7889f29cc091c3de7
-Source68:	%{_urlprefix}/libkdcraw-%{version}.tar.bz2
-# Source68-md5:	986fbbe46f0c17d45784593b18e6e31d
-Source69:	%{_urlprefix}/libkdeedu-%{version}.tar.bz2
-# Source69-md5:	b984c0e5ea4d9101b150773f4d92c71f
-Source70:	%{_urlprefix}/libkexiv2-%{version}.tar.bz2
-# Source70-md5:	87f69c9e04cb4c14d18c2c3404740f20
-Source71:	%{_urlprefix}/libkipi-%{version}.tar.bz2
-# Source71-md5:	b0a84b23a17b2b71cf143b896a77936d
-Source72:	%{_urlprefix}/libksane-%{version}.tar.bz2
-# Source72-md5:	864685ebe7bb7e7efcb1c9122b9b9d23
-Source73:	%{_urlprefix}/marble-%{version}.tar.bz2
-# Source73-md5:	95c546f33706d8fcbef8a04b4b18a17f
-Source74:	%{_urlprefix}/okular-%{version}.tar.bz2
-# Source74-md5:	6df57858c0138072b69945072d09978c
-Source75:	%{_urlprefix}/oxygen-icons-%{version}.tar.bz2
-# Source75-md5:	2ae26ba235f207eb29677637c1d059a7
-Source76:	%{_urlprefix}/parley-%{version}.tar.bz2
-# Source76-md5:	92608ce548515a53191705c94af46628
-Source77:	%{_urlprefix}/perlkde-%{version}.tar.bz2
-# Source77-md5:	a85ad9879e3baeffed23d6d4d4bb0e24
-Source78:	%{_urlprefix}/perlqt-%{version}.tar.bz2
-# Source78-md5:	b9a419ba264d12fa89a3fb0da5e9fa57
-Source79:	%{_urlprefix}/printer-applet-%{version}.tar.bz2
-# Source79-md5:	7fb821b0052696c9dc7dcc0360265674
-Source80:	%{_urlprefix}/pykde4-%{version}.tar.bz2
-# Source80-md5:	5f31743bebb879e537426dafb0b6d942
-Source81:	%{_urlprefix}/qtruby-%{version}.tar.bz2
-# Source81-md5:	c78fdbd02f161025da5a08b83c47ac66
-Source82:	%{_urlprefix}/qyoto-%{version}.tar.bz2
-# Source82-md5:	24a3727bdde0f54aff05825d0cc64cd4
-Source83:	%{_urlprefix}/rocs-%{version}.tar.bz2
-# Source83-md5:	0c38086c47408b8470157d596f7ce221
-Source84:	%{_urlprefix}/smokegen-%{version}.tar.bz2
-# Source84-md5:	8f3b232945720bf7c23239f4a1b2737d
-Source85:	%{_urlprefix}/smokekde-%{version}.tar.bz2
-# Source85-md5:	c86cce394b795e0be5ebb25f428f3726
-Source86:	%{_urlprefix}/smokeqt-%{version}.tar.bz2
-# Source86-md5:	7743457909c5e003ab5da3f6fd8d2a0d
-Source87:	%{_urlprefix}/step-%{version}.tar.bz2
-# Source87-md5:	e476da52857ac1d753d821e4732c0126
-Source88:	%{_urlprefix}/superkaramba-%{version}.tar.bz2
-# Source88-md5:	554c3e5dd470b2428f5792cd72224fdf
-Source89:	%{_urlprefix}/svgpart-%{version}.tar.bz2
-# Source89-md5:	17a325765568945ddbb12a391886b433
-Source90:	%{_urlprefix}/sweeper-%{version}.tar.bz2
-# Source90-md5:	b53b550467f1c545c08553bbfa0af641
+Source20:	%{_urlprefix}/kde-runtime-%{version}.tar.xz
+# Source20-md5:	9fa9c4015f158d1b434a5b8653e65dcf
+Source21:	%{_urlprefix}/kde-wallpapers-%{version}.tar.xz
+# Source21-md5:	803b5e91d415ab3519a872c70b0c770a
+Source22:	%{_urlprefix}/kde-workspace-%{version}.tar.xz
+# Source22-md5:	e4549dab07507e602a868bededb740ec
+Source23:	%{_urlprefix}/kdeadmin-%{version}.tar.xz
+# Source23-md5:	816e678301670c8e7fe859f99951c7d4
+Source24:	%{_urlprefix}/kdeartwork-%{version}.tar.xz
+# Source24-md5:	be817818f3e1971a31a8606e49f522a1
+Source25:	%{_urlprefix}/kdegames-%{version}.tar.xz
+# Source25-md5:	450d31446cbf978d8f104a63ebeafdec
+Source26:	%{_urlprefix}/kdegraphics-mobipocket-%{version}.tar.xz
+# Source26-md5:	f97480d37f7f4f09de1b5cc263204927
+Source27:	%{_urlprefix}/kdegraphics-strigi-analyzer-%{version}.tar.xz
+# Source27-md5:	43c6db223db10a71fa7a0285b8d2146f
+Source28:	%{_urlprefix}/kdegraphics-thumbnailers-%{version}.tar.xz
+# Source28-md5:	85b3887e7dff902d9f6b247f5e23719f
+Source29:	%{_urlprefix}/kdelibs-%{version}.tar.xz
+# Source29-md5:	0488ec7d753c3455876d9e3f76406292
+Source30:	%{_urlprefix}/kdemultimedia-%{version}.tar.xz
+# Source30-md5:	5feaa2f12f46b60c9b23a1a7011cbdef
+Source31:	%{_urlprefix}/kdenetwork-%{version}.tar.xz
+# Source31-md5:	cec7c15d1b21b085216be772b5bee9e5
+Source32:	%{_urlprefix}/kdepim-%{version}.tar.xz
+# Source32-md5:	46a6dd45874b4a5d9cf18785ab4c774e
+Source33:	%{_urlprefix}/kdepim-runtime-%{version}.tar.xz
+# Source33-md5:	9c26ea08d3c937313e931070c902bfb6
+Source34:	%{_urlprefix}/kdepimlibs-%{version}.tar.xz
+# Source34-md5:	b5d77e68e6daa93cae3364c825142b4e
+Source35:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.xz
+# Source35-md5:	9844b096e637f51e4640816cd8b4de42
+Source36:	%{_urlprefix}/kdesdk-%{version}.tar.xz
+# Source36-md5:	7870565f51d4a8ce847dda42ca9ffe30
+Source37:	%{_urlprefix}/kdetoys-%{version}.tar.xz
+# Source37-md5:	21a3010705eb4506c3b072a14d62784d
+Source38:	%{_urlprefix}/kdewebdev-%{version}.tar.xz
+# Source38-md5:	0a3a936f207d09af4ea986988d1fc122
+Source39:	%{_urlprefix}/kdf-%{version}.tar.xz
+# Source39-md5:	054678f0d81a2a1e908bdf6b7a236ceb
+Source40:	%{_urlprefix}/kfloppy-%{version}.tar.xz
+# Source40-md5:	b80fc397db04078a7e3787dc92ae30db
+Source41:	%{_urlprefix}/kgamma-%{version}.tar.xz
+# Source41-md5:	87153d955b0926491df4caec5310f984
+Source42:	%{_urlprefix}/kgeography-%{version}.tar.xz
+# Source42-md5:	5d26aee81678ab952ee21444be86f93a
+Source43:	%{_urlprefix}/kgpg-%{version}.tar.xz
+# Source43-md5:	1b54569da5989e248c1f41ed0399fe4b
+Source44:	%{_urlprefix}/khangman-%{version}.tar.xz
+# Source44-md5:	823eb9d1a9b4f9b2f64a1a5e1305b056
+Source45:	%{_urlprefix}/kig-%{version}.tar.xz
+# Source45-md5:	8d7c57183c7abce16c2741bb058fb7de
+Source46:	%{_urlprefix}/kimono-%{version}.tar.xz
+# Source46-md5:	7d3f9c80db9b7cd800a5d1a039b4a641
+Source47:	%{_urlprefix}/kiten-%{version}.tar.xz
+# Source47-md5:	d6051ab675a5028bd7ece0d8fc9ee0fe
+Source48:	%{_urlprefix}/klettres-%{version}.tar.xz
+# Source48-md5:	2da84fdc0a2f03cb2cccb2e7c624d9ce
+Source49:	%{_urlprefix}/kmag-%{version}.tar.xz
+# Source49-md5:	194504ff8c7969d46ba275b2183cf2c3
+Source50:	%{_urlprefix}/kmousetool-%{version}.tar.xz
+# Source50-md5:	52d106e0929ecec91234c1408288cd7b
+Source51:	%{_urlprefix}/kmouth-%{version}.tar.xz
+# Source51-md5:	bda199b8b3f2ed961f5b34821ac8f705
+Source52:	%{_urlprefix}/kmplot-%{version}.tar.xz
+# Source52-md5:	281abbdc71a72930e5bb6c02fd4e10f5
+Source53:	%{_urlprefix}/kolourpaint-%{version}.tar.xz
+# Source53-md5:	194a6349f4d851e24f3299db6891e338
+Source54:	%{_urlprefix}/konsole-%{version}.tar.xz
+# Source54-md5:	913c682bbc857c76392d7e8df8c463b1
+Source55:	%{_urlprefix}/korundum-%{version}.tar.xz
+# Source55-md5:	8cc3ba4d1a916b646529707cbe95c49c
+Source56:	%{_urlprefix}/kremotecontrol-%{version}.tar.xz
+# Source56-md5:	4d8edb8b57908c3039a15e0a7c7238f1
+Source57:	%{_urlprefix}/kross-interpreters-%{version}.tar.xz
+# Source57-md5:	b4405799a3e1408f88242f9f2fbec8ef
+Source58:	%{_urlprefix}/kruler-%{version}.tar.xz
+# Source58-md5:	22da4492b7e33b38d0a60dbad21efcb6
+Source59:	%{_urlprefix}/ksaneplugin-%{version}.tar.xz
+# Source59-md5:	4eb7ee80b6dceb108cbe69fba99ee50d
+Source60:	%{_urlprefix}/ksecrets-%{version}.tar.xz
+# Source60-md5:	61533859da11b808214b4bc0478e31ad
+Source61:	%{_urlprefix}/ksnapshot-%{version}.tar.xz
+# Source61-md5:	f1d61b6865c2cf7e002860303fa7b052
+Source62:	%{_urlprefix}/kstars-%{version}.tar.xz
+# Source62-md5:	17dd8579901a6fb500bda620a8706376
+Source63:	%{_urlprefix}/ktimer-%{version}.tar.xz
+# Source63-md5:	1cd04e2529ab2dd041ac8c4eaa4e3338
+Source64:	%{_urlprefix}/ktouch-%{version}.tar.xz
+# Source64-md5:	1da0a972c66b7e6bc8c7aa6f50e6dbfa
+Source65:	%{_urlprefix}/kturtle-%{version}.tar.xz
+# Source65-md5:	5ed342e2ac44fb74be8e07a2ef643423
+Source66:	%{_urlprefix}/kwallet-%{version}.tar.xz
+# Source66-md5:	90103ae4a19ea4a212a9bd6521d214de
+Source67:	%{_urlprefix}/kwordquiz-%{version}.tar.xz
+# Source67-md5:	09c8bca9a691f562610f832f8fb7f904
+Source68:	%{_urlprefix}/libkdcraw-%{version}.tar.xz
+# Source68-md5:	83e20af3ae9da617aa95f868000a2cd4
+Source69:	%{_urlprefix}/libkdeedu-%{version}.tar.xz
+# Source69-md5:	db4fc897ca2e84f527eadabc5b49bce1
+Source70:	%{_urlprefix}/libkexiv2-%{version}.tar.xz
+# Source70-md5:	05491210248c18b69272f45fddab2f30
+Source71:	%{_urlprefix}/libkipi-%{version}.tar.xz
+# Source71-md5:	9f28791d6a2b11157d421b5ce1af3b20
+Source72:	%{_urlprefix}/libksane-%{version}.tar.xz
+# Source72-md5:	c84a768f953576db8030017c2709ea37
+Source73:	%{_urlprefix}/marble-%{version}.tar.xz
+# Source73-md5:	e1b73990d92d6e4d7f1799e72f885946
+Source74:	%{_urlprefix}/okular-%{version}.tar.xz
+# Source74-md5:	7e21d10d1631e9c72c25b3ac58c31edb
+Source75:	%{_urlprefix}/oxygen-icons-%{version}.tar.xz
+# Source75-md5:	947d07c4f993e7cf070078358de13298
+Source76:	%{_urlprefix}/parley-%{version}.tar.xz
+# Source76-md5:	6194571f3ef9b66a93bb90a3842539ce
+Source77:	%{_urlprefix}/perlkde-%{version}.tar.xz
+# Source77-md5:	53e8cfc061fe699c7ff12a64b22b33a4
+Source78:	%{_urlprefix}/perlqt-%{version}.tar.xz
+# Source78-md5:	a644f1ca39d9140f12069e7065fa4bd5
+Source79:	%{_urlprefix}/printer-applet-%{version}.tar.xz
+# Source79-md5:	395dfbd48c087f519618d2edfd10580c
+Source80:	%{_urlprefix}/pykde4-%{version}.tar.xz
+# Source80-md5:	ef9da17db70c6ce532dc59c56020c333
+Source81:	%{_urlprefix}/qtruby-%{version}.tar.xz
+# Source81-md5:	0a9abf4fa07408d4dcab8bb8a0f9f344
+Source82:	%{_urlprefix}/qyoto-%{version}.tar.xz
+# Source82-md5:	c4fcc2b0e27ea70101620988d9e6898c
+Source83:	%{_urlprefix}/rocs-%{version}.tar.xz
+# Source83-md5:	d19ee2dab11e346158b578599c0f145d
+Source84:	%{_urlprefix}/smokegen-%{version}.tar.xz
+# Source84-md5:	ed67926d7fb44080a167ce1cbcac5acd
+Source85:	%{_urlprefix}/smokekde-%{version}.tar.xz
+# Source85-md5:	dc1d046f79613b9f0dd41194a4ece687
+Source86:	%{_urlprefix}/smokeqt-%{version}.tar.xz
+# Source86-md5:	f10807832cbfa4c08ebecfc8dec6a0f8
+Source87:	%{_urlprefix}/step-%{version}.tar.xz
+# Source87-md5:	b734335e134d40801f5d3230665c0a0c
+Source88:	%{_urlprefix}/superkaramba-%{version}.tar.xz
+# Source88-md5:	babb2b3c03bc50dc8c4aece9f8a0223a
+Source89:	%{_urlprefix}/svgpart-%{version}.tar.xz
+# Source89-md5:	c63eb95b457314b7d2e4f1cfb66a344d
+Source90:	%{_urlprefix}/sweeper-%{version}.tar.xz
+# Source90-md5:	63e5ec115d68135164ee5f87f4e6fada
 %if %{with l10n}
 Source101: %{_urlprefix}/kde-l10n/kde-l10n-ar-4.8.0.tar.bz2
 # Source101-md5:	a33e5b8b7c5bf7cc3c013cdc5658882e
@@ -307,7 +307,7 @@ Source152: %{_urlprefix}/kde-l10n/kde-l10n-zh_TW-4.8.0.tar.bz2
 %endif
 %if %{with koffice}
 Source68:	%{_urlprefix}/koffice-%{kofficever}/koffice-%{kofficever}.tar.bz2
-# Source68-md5:	986fbbe46f0c17d45784593b18e6e31d
+# Source68-md5:	83e20af3ae9da617aa95f868000a2cd4
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
