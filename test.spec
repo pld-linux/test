@@ -1,5 +1,5 @@
 Summary:	testing builder
-Name:		builder
+Name:		test
 Version:	1
 Release:	0.1
 License:	GPL
