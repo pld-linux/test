@@ -62,7 +62,7 @@ Source20:	%{_urlprefix}/kde-runtime-%{version}.tar.xz
 Source21:	%{_urlprefix}/kde-wallpapers-%{version}.tar.xz
 # Source21-md5:	9e3dcf2d0f593795f6b7ee09b4fb1595
 Source22:	%{_urlprefix}/kde-workspace-%{version}.tar.xz
-# Source22-md5:	3744e8eea1d0e25bd8646415e193873f
+# Source22-md5:	a725122bc968cce959fd2dfe3ef552ff
 Source23:	%{_urlprefix}/kdeadmin-%{version}.tar.xz
 # Source23-md5:	8f68d983f0028fe2c5e4566f5adada44
 Source24:	%{_urlprefix}/kdeartwork-%{version}.tar.xz
@@ -84,13 +84,13 @@ Source31:	%{_urlprefix}/kdenetwork-%{version}.tar.xz
 Source32:	%{_urlprefix}/kdepim-%{version}.tar.xz
 # Source32-md5:	95784f2f3c67889205c6537255c3f9b5
 Source33:	%{_urlprefix}/kdepim-runtime-%{version}.tar.xz
-# Source33-md5:	7d22cd2272f01d184b8f5375e891fdc3
+# Source33-md5:	ac3b7c787813ff0d1b47b6ec9d888773
 Source34:	%{_urlprefix}/kdepimlibs-%{version}.tar.xz
 # Source34-md5:	ec4a0c4aae5aadf3be024254fe733139
 Source35:	%{_urlprefix}/kdeplasma-addons-%{version}.tar.xz
 # Source35-md5:	baafb502d214c1a4869f5cf2487e7e59
 Source36:	%{_urlprefix}/kdesdk-%{version}.tar.xz
-# Source36-md5:	50348013e59be8cb0984bd8553aac08f
+# Source36-md5:	a47a7a28ba48e5553bdb610c548a32dd
 Source37:	%{_urlprefix}/kdetoys-%{version}.tar.xz
 # Source37-md5:	5a51eb19db0fc195d782459a86544496
 Source38:	%{_urlprefix}/kdewebdev-%{version}.tar.xz
@@ -126,7 +126,7 @@ Source52:	%{_urlprefix}/kmplot-%{version}.tar.xz
 Source53:	%{_urlprefix}/kolourpaint-%{version}.tar.xz
 # Source53-md5:	5b3642128da6afe5d7e06da8b5163b1b
 Source54:	%{_urlprefix}/konsole-%{version}.tar.xz
-# Source54-md5:	fa7dec61e2bbf120ddd5cff1d291e4b8
+# Source54-md5:	c63b525e94a0e7e1753ea3d9dbff6970
 Source55:	%{_urlprefix}/korundum-%{version}.tar.xz
 # Source55-md5:	66345740580f485d6956e926f17ef673
 Source56:	%{_urlprefix}/kremotecontrol-%{version}.tar.xz
