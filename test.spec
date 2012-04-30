@@ -5,8 +5,8 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/pdf-renderer/pdf-renderer-128svn-20110310.tar.bz2/f46cdc9f014e3ec9d47704e46b249209/pdf-renderer-128svn-20110310.tar.bz2
-# Source0-md5:	f46cdc9f014e3ec9d47704e46b249209
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/linux-firmware/linux-firmware-20120418.tar.gz/7652141968b9c53af4d38317a85f88b8/linux-firmware-20120418.tar.gz
+# Source0-md5:	7652141968b9c53af4d38317a85f88b8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
