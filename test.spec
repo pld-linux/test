@@ -5,8 +5,8 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/linux-firmware/linux-firmware-20120418.tar.gz/7652141968b9c53af4d38317a85f88b8/linux-firmware-20120418.tar.gz
-# Source0-md5:	7652141968b9c53af4d38317a85f88b8
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/mysql-connector-c++/mysql-connector-c++-bzr895.tgz/ef824818419b8fb0f1396e37ce040d7a/mysql-connector-c++-bzr895.tgz
+# Source0-md5:	ef824818419b8fb0f1396e37ce040d7a
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
