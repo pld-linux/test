@@ -5,8 +5,10 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/mysql-connector-c++/mysql-connector-c++-bzr895.tgz/ef824818419b8fb0f1396e37ce040d7a/mysql-connector-c++-bzr895.tgz
-# Source0-md5:	ef824818419b8fb0f1396e37ce040d7a
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/aqute-bnd/bnd-0.0.363.jar/1d36d0271381964304c08b00b5fd1b4a/bnd-0.0.363.jar
+# Source0-md5:	1d36d0271381964304c08b00b5fd1b4a
+Source1:	http://pkgs.fedoraproject.org/repo/pkgs/aqute-bnd/aqute-service.tar.gz/11fe2398149f85066f6d0b6dc8af225b/aqute-service.tar.gz
+# Source1-md5:	11fe2398149f85066f6d0b6dc8af225b
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
