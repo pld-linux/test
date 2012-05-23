@@ -5,10 +5,8 @@ Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/aqute-bnd/bnd-0.0.363.jar/1d36d0271381964304c08b00b5fd1b4a/bnd-0.0.363.jar
-# Source0-md5:	1d36d0271381964304c08b00b5fd1b4a
-Source1:	http://pkgs.fedoraproject.org/repo/pkgs/aqute-bnd/aqute-service.tar.gz/11fe2398149f85066f6d0b6dc8af225b/aqute-service.tar.gz
-# Source1-md5:	11fe2398149f85066f6d0b6dc8af225b
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/libclastfm/libclastfm-20120314git968af0ab.tar.bz2/2e17a7981e2f16b9533994e543ed318a/libclastfm-20120314git968af0ab.tar.bz2
+# Source0-md5:	2e17a7981e2f16b9533994e543ed318a
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
