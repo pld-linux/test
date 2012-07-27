@@ -1,5 +1,5 @@
 %define		plugin configmanager
-Summary:	testing something
+Summary:	testing something else
 Name:		builder
 Version:	1
 Release:	0.1
