@@ -1,12 +1,12 @@
 Summary:	fetch files from fedora distfiles
 Name:		test
-Version:	2.1.7
+Version:	1
 Release:	0.10
 License:	GPL
 Group:		Applications/System
 # http://pkgs.fedoraproject.org/repo/pkgs/<PACKAGE>
-Source0:	http://pkgs.fedoraproject.org/repo/pkgs/libclastfm/libclastfm-20120314git968af0ab.tar.bz2/2e17a7981e2f16b9533994e543ed318a/libclastfm-20120314git968af0ab.tar.bz2
-# Source0-md5:	2e17a7981e2f16b9533994e543ed318a
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/dwz/dwz-0.6.tar.bz2/e72adeacdae79647f34f139f7957bcb1/dwz-0.6.tar.bz2
+# Source0-md5:	e72adeacdae79647f34f139f7957bcb1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
