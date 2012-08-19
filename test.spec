@@ -3,7 +3,7 @@
 Summary:	testing something
 Name:		test
 Version:	8.72
-Release:	13¼
+Release:	131
 #Release:	%{rel}
 License:	GPL
 Group:		Applications/System
