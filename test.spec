@@ -1,6 +1,7 @@
+%define		src_ver	6u35
 Summary:	fetch sun (oracle) jdk
 Name:		test
-Version:	1.6.0.33
+Version:	1.6.0.35
 Release:	1
 License:	restricted, distributable
 # http://www.oracle.com/technetwork/java/javase/terms/license/index.html
@@ -9,10 +10,10 @@ License:	restricted, distributable
 Group:		Applications/System
 # Accept license and download from
 # http://www.oracle.com/technetwork/java/javase/downloads/index.html
-Source0:	jdk-6u33-linux-i586.bin
-# Source0-md5:	276d31fabcc1f10b401c1e8b7680e460
-Source1:	jdk-6u33-linux-x64.bin
-# Source1-md5:	b6764210dc436d43b5bb8caa1cc1f461
+Source0:	jdk-%{src_ver}-linux-i586.bin
+# Source0-md5:	592b60fcc11cbd6d323a3f357327d701
+Source1:	jdk-%{src_ver}-linux-x64.bin
+# Source1-md5:	3876e012629977ce08054347cf3bfdb0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
