@@ -1,22 +1,16 @@
-%define		prefix	http://carme.pld-linux.org/~glen/horde/
 Summary:	Distfiles Fetcher
-Name:		distfiles
-Version:	1.9
+Name:		linux-firmware
+Version:	20120720
 Release:	1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	linux-2.6.38.tar.bz2
-# Source0-md5:	7d471477bfa67546f902da62227fa976
-Patch1:		bar_1.11.1.tar.gz
-# Patch1-md5:	4836a9767cbfb9c0b16020d23b4b5e91
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/linux-firmware/linux-firmware-20120720.tar.gz/a26f3e6042afccf12a4633050e1c8c0c/linux-firmware-20120720.tar.gz
+# Source0-md5:	a26f3e6042afccf12a4633050e1c8c0c
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Alien allows you to convert Debian, Stampede and Slackware Packages
-into PLD packages, which can be installed with rpm. It can also
-convert into Slackware, Debian, and Stampede packages. This is a tool
-only suitable for binary packages.
+Fake package to fool distfiles.
 
 %prep
 exit 1
