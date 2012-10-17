@@ -1,28 +1,35 @@
-%define		plugin configmanager
-Summary:	testing something else
-Name:		builder
+%include	/usr/lib/rpm/macros.php
+Summary:	php deps tester
+Name:		php-deps
 Version:	1
 Release:	0.1
 License:	GPL
-Group:		Applications/System
-URL:		http://www.pld-linux.org/
-#Source0:	jdk-6u34-linux-i586.bin
-## Source0-md5:	60f304b5ecae14dab5ab0b0144b9c012
+Group:		Development/Languages/PHP
+BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.580
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-testing something
+Testing PHP deps.
 
 %prep
 %setup -qcT
 
 %install
-install -d $RPM_BUILD_ROOT
-install a $RPM_BUILD_ROOT
-ln -s /not-existing-crap $RPM_BUILD_ROOT/test
+rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{php_pear_dir}
+cat <<EOF > $RPM_BUILD_ROOT%{php_pear_dir}/a.php
+<?php
+require_once 'PEAR.php';
+EOF
 
 %clean
+install -d $RPM_BUILD_ROOT
+pkg=%{_rpmdir}/%{name}-%{version}-%{release}.%{_target_cpu}.rpm
+rpm -qp --provides $pkg | tee provides.log
+rpm -qp --requires $pkg | tee requires.log
 
 %files
 %defattr(644,root,root,755)
-/*
+%{php_pear_dir}/*
