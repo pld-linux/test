@@ -10,11 +10,16 @@ BuildRequires:	rpmbuild(macros) >= 1.580
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_noautoreq_pear Excluded.php
+
 %description
 Testing PHP deps.
 
 %prep
 %setup -qcT
+cat <<EOF
+%__noautoreq
+EOF
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -22,6 +27,7 @@ install -d $RPM_BUILD_ROOT%{php_pear_dir}
 cat <<EOF > $RPM_BUILD_ROOT%{php_pear_dir}/a.php
 <?php
 require_once 'PEAR.php';
+require_once 'Excluded.php';
 EOF
 
 %clean
