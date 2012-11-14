@@ -11,7 +11,7 @@ URL:		http://www.pld-linux.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-testing something
+testing something.
 
 %prep
 %setup -qcT
