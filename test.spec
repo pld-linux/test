@@ -1,14 +1,11 @@
 %define		prefix	http://carme.pld-linux.org/~glen/horde/
 Summary:	Distfiles Fetcher
 Name:		distfiles
-Version:	1.9
-Release:	1
+Version:	7.3
+Release:	0.1
 License:	GPL
 Group:		Networking/Hacking
-Source0:	linux-2.6.38.tar.bz2
-# Source0-md5:	7d471477bfa67546f902da62227fa976
-Patch1:		bar_1.11.1.tar.gz
-# Patch1-md5:	4836a9767cbfb9c0b16020d23b4b5e91
+Source0:	ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.738
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
