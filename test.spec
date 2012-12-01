@@ -1,6 +1,5 @@
-%define		prefix	http://carme.pld-linux.org/~glen/horde/
 %define		ver		7.3
-%define		patchlevel	2
+%define		patchlevel	743
 Summary:	Distfiles Fetcher
 Name:		distfiles
 Version:	%{ver}.%{patchlevel}
@@ -8,7 +7,7 @@ Release:	0.1
 License:	GPL
 Group:		Networking/Hacking
 Source0:	ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.738
-%patchset_source -f ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.%03g 1 %{patchlevel}
+%patchset_source -f ftp://ftp.vim.org/pub/editors/vim/patches/%{ver}/%{ver}.%03g 1 %{patchlevel}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
