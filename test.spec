@@ -1,5 +1,5 @@
 %define		ver		7.3
-%define		patchlevel	743
+%define		patchlevel	7
 Summary:	Distfiles Fetcher
 Name:		distfiles
 Version:	%{ver}.%{patchlevel}
