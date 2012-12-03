@@ -6,7 +6,10 @@ Version:	%{ver}.%{patchlevel}
 Release:	0.1
 License:	GPL
 Group:		Networking/Hacking
-#Source0:	ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.738
+Source0:	ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.738
+Source1:	ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.739
+# Source1-md5:	61d956ac3c674b930675160f69330483
+Source2:	ftp://ftp.vim.org/pub/editors/vim/patches/7.3/7.3.744
 %patchset_source -f ftp://ftp.vim.org/pub/editors/vim/patches/%{ver}/%{ver}.%03g 1 %{patchlevel}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
