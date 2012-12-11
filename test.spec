@@ -1,10 +1,9 @@
 Summary:	test cpuflags
 Name:		test
 Version:	5.3.11
-Release:	0.10
+Release:	0.11
 License:	GPL
 Group:		Applications/System
-BuildArch:	noarch
 %ifarch %{x8664}
 Requires(cpuflags):	lm
 %endif
