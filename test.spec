@@ -1,11 +1,11 @@
 Summary:	test cpuflags
 Name:		test
 Version:	5.3.11
-Release:	0.11
+Release:	0.12
 License:	GPL
 Group:		Applications/System
 %ifarch %{x8664}
-Requires(cpuflags):	lm
+Requires:	cpuinfo(lm)
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
