@@ -9,6 +9,8 @@ Requires(cpuflags):	lm
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_enable_debug_packages	0
+
 %description
 test cpuflags on x86_64 that the kernel is compatible with target cpu. thus if
 you install rpm on 32bit booted kernel it could be still validated to be arch
