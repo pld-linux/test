@@ -6,10 +6,10 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
-Source0:	jdk-7u13-linux-i586.tar.gz
-# Source0-md5:	2e129b77f7c2640dde08c267ed000c49
-Source1:	jdk-7u13-linux-x64.tar.gz
-# Source1-md5:	5286b7e752fb8814d85124cb623ff045
+Source0:	jdk-6u39-linux-i586.bin
+# Source0-md5:	40f5f4511a9c6ed4bcac687787066db1
+Source1:	jdk-6u39-linux-x64.bin
+# Source1-md5:	8170ab32937a115d164ff61f5d00697d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
