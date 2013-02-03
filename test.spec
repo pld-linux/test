@@ -6,10 +6,10 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
-Source0:	jdk-6u39-linux-i586.bin
-# Source0-md5:	40f5f4511a9c6ed4bcac687787066db1
-Source1:	jdk-6u39-linux-x64.bin
-# Source1-md5:	8170ab32937a115d164ff61f5d00697d
+#Source0:	jdk-6u39-linux-i586.bin
+## Source0-md5:	40f5f4511a9c6ed4bcac687787066db1
+Source1:	syslog-ng-ose-v3.3-guide-admin-en.pdf
+# Source1-md5:	c5fb4bd364a10dced391dbf63350b115
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
