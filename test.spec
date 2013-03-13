@@ -13,7 +13,7 @@ Source1:	jdk-6u43-linux-x64.bin
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-testing something
+testing git
 
 %prep
 %setup -qcT
