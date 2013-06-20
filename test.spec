@@ -9,6 +9,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
+BuildArch:	x86_64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
