@@ -1,7 +1,7 @@
-%define		src_ver	7u40
+%define		src_ver	7u45
 Summary:	fetch sun (oracle) jdk
 Name:		test
-Version:	1.7.0.40
+Version:	1.7.0.45
 Release:	2
 License:	restricted, distributable
 # http://www.oracle.com/technetwork/java/javase/terms/license/index.html
@@ -11,9 +11,9 @@ Group:		Applications/System
 # Accept license and download from
 # http://www.oracle.com/technetwork/java/javase/downloads/index.html
 Source0:	jdk-%{src_ver}-linux-i586.tar.gz
-# Source0-md5:	0079cecc8c4d0f088ace5d0ea99d0c5c
+# Source0-md5:	66b47e77d963c5dd652f0c5d3b03cb52
 Source1:	jdk-%{src_ver}-linux-x64.tar.gz
-# Source1-md5:	511ea34e4a42955bc03c28afa4b8f6cf
+# Source1-md5:	bea330fcbcff77d31878f21753e09b30
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
