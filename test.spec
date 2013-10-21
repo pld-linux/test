@@ -61,7 +61,7 @@ touch kernel%{_alt_kernel}-net-%{pname}.list\
 Summary:	testing something
 Name:		%{pname}
 Version:	1
-Release:	%{rel}
+Release:	%{rel}%{?with_kernel:@%{_kernel_ver_str}}
 License:	GPL
 Group:		Applications/System
 URL:		http://www.pld-linux.org/
@@ -71,7 +71,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 testing something
 
-%{expand:%kpkg}
+%{?with_kernel:%{expand:%kpkg}}
 
 %prep
 %setup -qcT
@@ -80,7 +80,7 @@ testing something
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
 
-%{expand:%bkpkg}
+%{?with_kernel:%{expand:%bkpkg}}
 
 %clean
 
