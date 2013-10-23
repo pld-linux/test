@@ -11,16 +11,18 @@
 
 %if "%{_alt_kernel}" != "%{nil}"
 %if 0%{?build_kernels:1}
-Error: alt_kernel and build_kernels are mutually exclusive
+%{error:alt_kernel and build_kernels are mutually exclusive}
+exit 1
 %endif
 %undefine	with_userspace
 %define		_build_kernels		%{alt_kernel}
 %else
-%define		_build_kernels		NIL%{?build_kernels:,%{?build_kernels}}
+%define		_build_kernels		%{?build_kernels:,%{?build_kernels}}
 %endif
 
-%define		kpkg	%(echo %{_build_kernels} | tr , '\\n' | while read n ; do if [ $n = NIL ]; then echo %%undefine alt_kernel ; else echo %%define alt_kernel $n ; fi ; echo %%kernel_pkg; done)
-%define		bkpkg	%(echo %{_build_kernels} | tr , '\\n' | while read n ; do if [ $n = NIL ]; then echo %%undefine alt_kernel ; else echo %%define alt_kernel $n ; fi ; echo %%build_kernel_pkg; done)
+%define		kpkg	%(echo %{_build_kernels} | tr , '\\n' | while read n ; do echo %%undefine alt_kernel ; [ -z "$n" ] || echo %%define alt_kernel $n ; echo %%kernel_pkg ; done)
+%define		bkpkg	%(echo %{_build_kernels} | tr , '\\n' | while read n ; do echo %%undefine alt_kernel ; [ -z "$n" ] || echo %%define alt_kernel $n ; echo %%build_kernel_pkg ; done)
+%define		ikpkg	%(echo %{_build_kernels} | tr , '\\n' | while read n ; do echo %%undefine alt_kernel ; [ -z "$n" ] || echo %%define alt_kernel $n ; echo %%install_kernel_pkg ; done)
 
 %define		rel	0.1
 %define		pname	test
