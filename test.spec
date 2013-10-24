@@ -83,7 +83,7 @@ Group:		Base/Kernel
 Source0:	http://downloads.sourceforge.net/e1000/%{pname}-%{version}.tar.gz
 # Source0-md5:	05bae01409bb699f14297d726df2aa23
 URL:		http://www.pld-linux.org/
-BuildRequires:	rpm-build-macros >= 1.677
+BuildRequires:	rpm-build-macros >= 1.678
 %{?with_dist_kernel:BuildRequires:	kernel%{_alt_kernel}-module-build >= 3:2.6.20.2}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
