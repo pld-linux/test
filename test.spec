@@ -1,4 +1,3 @@
-%trace
 # Module for kernels <2.6.24
 #
 # Conditional build:
