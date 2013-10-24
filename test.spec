@@ -1,3 +1,4 @@
+%trace
 # Module for kernels <2.6.24
 #
 # Conditional build:
@@ -15,9 +16,9 @@
 exit 1
 %endif
 %undefine	with_userspace
-%define		_build_kernels		%{alt_kernel}
+%global		_build_kernels		%{alt_kernel}
 %else
-%define		_build_kernels		%{?build_kernels:,%{?build_kernels}}
+%global		_build_kernels		%{?build_kernels:,%{?build_kernels}}
 %endif
 
 %define		kpkg	%(echo %{_build_kernels} | tr , '\\n' | while read n ; do echo %%undefine alt_kernel ; [ -z "$n" ] || echo %%define alt_kernel $n ; echo %%kernel_pkg ; done)
