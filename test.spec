@@ -3,10 +3,15 @@
 # Conditional build:
 %bcond_without	dist_kernel	# allow non-distribution kernel
 %bcond_without	kernel		# don't build kernel modules
+%bcond_without	userspace	# don't build userspace programs
 %bcond_with	verbose		# verbose build (V=1)
 
 %if %{without kernel}
 %undefine with_dist_kernel
+%endif
+
+%if %{with kernel}
+%undefine	with_userspace
 %endif
 
 %if "%{_alt_kernel}" != "%{nil}"
@@ -14,7 +19,6 @@
 %{error:alt_kernel and build_kernels are mutually exclusive}
 exit 1
 %endif
-%undefine	with_userspace
 %global		_build_kernels		%{alt_kernel}
 %else
 %global		_build_kernels		%{?build_kernels:,%{?build_kernels}}
@@ -26,6 +30,22 @@ exit 1
 
 %define		rel	0.1
 %define		pname	e1000e
+
+Summary:	testing something
+Name:		%{pname}%{_alt_kernel}
+Version:	2.4.14
+Release:	%{rel}%{?with_kernel:@%{_kernel_ver_str}}
+License:	GPL v2
+Group:		Base/Kernel
+Source0:	http://downloads.sourceforge.net/e1000/%{pname}-%{version}.tar.gz
+# Source0-md5:	05bae01409bb699f14297d726df2aa23
+URL:		http://www.pld-linux.org/
+BuildRequires:	rpm-build-macros >= 1.678
+%{?with_dist_kernel:BuildRequires:	kernel%{_alt_kernel}-module-build >= 3:2.6.20.2}
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%description
+testing something
 
 %define	kernel_pkg()\
 %package -n kernel%{_alt_kernel}-net-%{pname}\
@@ -58,6 +78,12 @@ stworzony aby pracować z kartami gigabitowymi rodziny Intel®\
 /etc/modprobe.d/%{_kernel_ver}/%{pname}.conf\
 /lib/modules/%{_kernel_ver}/kernel/drivers/net/%{pname}*.ko*\
 %endif\
+\
+%post	-n kernel%{_alt_kernel}-net-%{pname}\
+%depmod %{_kernel_ver}\
+\
+%postun	-n kernel%{_alt_kernel}-net-%{pname}\
+%depmod %{_kernel_ver}\
 %{nil}
 
 %define build_kernel_pkg()\
@@ -73,22 +99,6 @@ blacklist e1000e\
 alias e1000e e1000e-current\
 EOF\
 %{nil}
-
-Summary:	testing something
-Name:		%{pname}%{_alt_kernel}
-Version:	2.4.14
-Release:	%{rel}%{?with_kernel:@%{_kernel_ver_str}}
-License:	GPL v2
-Group:		Base/Kernel
-Source0:	http://downloads.sourceforge.net/e1000/%{pname}-%{version}.tar.gz
-# Source0-md5:	05bae01409bb699f14297d726df2aa23
-URL:		http://www.pld-linux.org/
-BuildRequires:	rpm-build-macros >= 1.678
-%{?with_dist_kernel:BuildRequires:	kernel%{_alt_kernel}-module-build >= 3:2.6.20.2}
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%description
-testing something
 
 %{?with_kernel:%{expand:%kpkg}}
 
@@ -119,5 +129,7 @@ cp -a installed/* $RPM_BUILD_ROOT
 
 %clean
 
+%if %{with userspace}
 %files
 %defattr(644,root,root,755)
+%endif
