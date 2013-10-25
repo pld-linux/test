@@ -10,8 +10,9 @@
 %undefine with_dist_kernel
 %endif
 
-%if %{with kernel}
-%undefine	with_userspace
+%if 0%{_pld_builder} && %{with kernel} && %{with userspace}
+%{error:kernel and userspace cannot be built at the same time on PLD builders}
+exit 1
 %endif
 
 %if "%{_alt_kernel}" != "%{nil}"
