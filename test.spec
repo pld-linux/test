@@ -17,6 +17,11 @@ testing something
 %prep
 %setup -qcT
 
+echo arch: %{_arch}
+%ifarch i486
+echo i486
+%endif
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
