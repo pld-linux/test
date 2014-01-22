@@ -9,7 +9,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 Source0:    df-test.tar
-#Source0-md5:   d41d8cd98f00b204e9800998ecf8427e
+# Source0-md5:   d41d8cd98f00b204e9800998ecf8427e
 URL:		http://www.pld-linux.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
