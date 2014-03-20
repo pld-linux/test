@@ -22,6 +22,7 @@ Subpackage
 
 %package sub2
 Summary: subpackage
+Requires(preun):	test-sub
 
 %description sub2
 Subpackage
