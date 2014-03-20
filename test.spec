@@ -42,14 +42,18 @@ install -d $RPM_BUILD_ROOT/dir
 touch $RPM_BUILD_ROOT/dir/file
 touch $RPM_BUILD_ROOT/dir/file2
 cd $RPM_BUILD_ROOT/dir
-ln -s file link
+
+%preun sub
+echo "sub script"
+
+%preun sub2
+echo "sub2 script"
 
 %clean
 
 %files
 %defattr(644,root,root,755)
 %dir /dir
-/dir/file2
 
 %files sub
 %defattr(644,root,root,755)
@@ -57,5 +61,5 @@ ln -s file link
 
 %files sub2
 %defattr(644,root,root,755)
-/dir/link
+/dir/file2
 
