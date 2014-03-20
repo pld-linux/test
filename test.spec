@@ -14,14 +14,48 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 testing something
 
+%package sub
+Summary: subpackage
+
+%description sub
+Subpackage
+
+%package sub2
+Summary: subpackage
+
+%description sub2
+Subpackage
+
+%define var1 foo
+%define var2 %{var1}
+%define var1 bar
+
 %prep
 %setup -qcT
+echo %{var1} %{var2}
+
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT/dir
+touch $RPM_BUILD_ROOT/dir/file
+touch $RPM_BUILD_ROOT/dir/file2
+cd $RPM_BUILD_ROOT/dir
+ln -s file link
 
 %clean
 
 %files
 %defattr(644,root,root,755)
+%dir /dir
+/dir/file2
+
+%files sub
+%defattr(644,root,root,755)
+/dir/file
+
+%files sub2
+%defattr(644,root,root,755)
+/dir/link
+
