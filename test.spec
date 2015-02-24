@@ -5,7 +5,7 @@
 Summary:	testing something
 Name:		test
 Version:	1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/System
 Source0:    test.tgz
