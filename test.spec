@@ -19,6 +19,9 @@ testing something
 %prep
 %setup -qcT
 
+%build
+echo 123
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
