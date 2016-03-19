@@ -20,7 +20,7 @@ testing something
 %setup -qcT
 
 %build
-echo 125
+echo 126
 
 %install
 rm -rf $RPM_BUILD_ROOT
