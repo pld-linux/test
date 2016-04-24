@@ -102,11 +102,24 @@ cat >$RPM_BUILD_ROOT%{_bindir}/test13 <<'EOF'
 print("test13")
 EOF
 
+cat >$RPM_BUILD_ROOT%{_bindir}/"test14 with space" <<'EOF'
+#!/usr/bin/python
 
-chmod a+x $RPM_BUILD_ROOT%{_bindir}/*
+print "test14"
+EOF
+
+install -d $RPM_BUILD_ROOT/%{_datadir}/"dir with spaces"
+cat >$RPM_BUILD_ROOT%{_datadir}/"dir with spaces"/test15 <<'EOF'
+#!/usr/bin/python
+
+print "test15"
+EOF
+
+chmod a+x $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/"dir with spaces"}/*
 
 %clean
 
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
+%{_datadir}/*/*
