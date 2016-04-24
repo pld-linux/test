@@ -8,15 +8,14 @@ Version:	1
 Release:	7
 License:	GPL
 Group:		Applications/System
-Source0:    test.tgz
-# Source0-md5:   a23576184c7a93c5f02401aca9907dbd
 URL:		http://www.pld-linux.org/
-# AUTO: -- error: Couldn't exec /usr/lib/rpm/pythoneggs.py: No such file or directory
+BuildRequires:	python
+BuildRequires:	python3
 BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-testing something
+__spec_install_post_check_shebangs testing
 
 %prep
 %setup -qcT
