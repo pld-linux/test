@@ -17,6 +17,16 @@ testing something
 
 %prep
 %setup -qcT
+cat > test.c <<EOF
+#include <stdio.h>
+#include <sys/auxv.h>
+
+int main() {
+  printf("%lu\n", getauxval(AT_SECURE));
+}
+EOF
+%{__cc} test.c -o test
+./test
 
 %install
 rm -rf $RPM_BUILD_ROOT
