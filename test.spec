@@ -12,7 +12,7 @@ Group:		Applications/System
 URL:		http://lists.pld-linux.org/mailman/pipermail/pld-devel-en/2020-March/025891.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoprov_pear .*
+%define		_noautoreq_pear .*
 
 %description
 %{summary}.
