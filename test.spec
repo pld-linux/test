@@ -24,7 +24,7 @@ testing something.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
-install a $RPM_BUILD_ROOT
+touch $RPM_BUILD_ROOT/a
 
 %clean
 rm -rf $RPM_BUILD_ROOT
