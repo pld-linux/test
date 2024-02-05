@@ -9,8 +9,8 @@ Version:	1
 Release:	7
 License:	GPL
 Group:		Applications/System
-Source0:	http://execve.pl/u/u?r=23#/xxx
-# Source0-md5:	6de9439834c9147569741d3c9c9fc010
+Source0:	test.c
+# Source0-md5:	144269a4ffe67704e0b71fb8d91fabe9
 URL:		http://www.pld-linux.org/
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -20,6 +20,10 @@ testing something.
 
 %prep
 %setup -qcT
+
+%{__cc} -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 %{SOURCE0} -o test
+strace ./test
+test $(sha256sum file-normal|cut -f1 -d' ') = $(sha256sum file-direct-io|cut -f1 -d' ')
 
 %install
 rm -rf $RPM_BUILD_ROOT
