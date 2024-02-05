@@ -21,6 +21,7 @@ testing something.
 %prep
 %setup -qcT
 
+%build
 %{__cc} -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 %{SOURCE0} -o test
 strace ./test
 test $(sha256sum file-normal|cut -f1 -d' ') = $(sha256sum file-direct-io|cut -f1 -d' ')
