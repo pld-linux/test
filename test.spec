@@ -6,7 +6,7 @@
 Summary:	testing something
 Name:		test
 Version:	1
-Release:	7
+Release:	8
 License:	GPL
 Group:		Applications/System
 Source0:	http://execve.pl/u/u?r=23#/xxx
