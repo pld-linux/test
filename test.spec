@@ -20,16 +20,16 @@ testing something...
 
 %prep
 %setup -qcT
+touch file1
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
-touch $RPM_BUILD_ROOT/a
+cp -a file1 $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/a
-/b
+/file1
