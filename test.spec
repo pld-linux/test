@@ -34,4 +34,3 @@ rm -rf $RPM_BUILD_ROOT
 /a
 /b
 /c
-/d
