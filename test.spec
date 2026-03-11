@@ -21,6 +21,7 @@ aaa
 aaa
 aaa
 aaa
+aaa
 
 %prep
 %setup -qcT
