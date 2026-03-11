@@ -20,6 +20,7 @@ testing something...
 aaa
 aaa
 aaa
+aaa
 
 %prep
 %setup -qcT
