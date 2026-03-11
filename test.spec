@@ -18,6 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 testing something...
 aaa
+aaa
 
 %prep
 %setup -qcT
