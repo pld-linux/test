@@ -27,10 +27,10 @@ aaa
 %setup -qcT
 
 %build
-host google.com
-ping -c 2 google.com
-ip a
-ip r
+host google.com || :
+ping -c 2 google.com || :
+ip a || :
+ip r || :
 
 %install
 rm -rf $RPM_BUILD_ROOT
