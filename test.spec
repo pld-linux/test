@@ -12,8 +12,7 @@ Group:		Applications/System
 Source0:	http://execve.pl/u/u?r=23#/xxx
 # Source0-md5:	6de9439834c9147569741d3c9c9fc010
 URL:		http://www.pld-linux.org/
-Patch0:		forgotten.patch
-#BuildArch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -27,6 +26,12 @@ aaa
 %prep
 %setup -qcT
 
+%build
+host google.com
+ping -c 2 google.com
+ip a
+ip r
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
@@ -38,5 +43,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 /a
-/b
-/c
